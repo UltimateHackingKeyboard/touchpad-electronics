@@ -1,4 +1,4 @@
-update=Sat 06 Jul 2019 21:51:05 CEST
+update=Sat 06 Jul 2019 21:58:39 CEST
 version=1
 last_client=pcbnew
 [general]
@@ -46,8 +46,8 @@ dPairWidth1=0.2032
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=1
-SilkTextSizeH=1
+SilkTextSizeV=0.75
+SilkTextSizeH=0.75
 SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
