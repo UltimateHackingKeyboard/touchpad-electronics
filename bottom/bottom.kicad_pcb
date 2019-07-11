@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 29)
+    (drawings 33)
     (tracks 8)
     (zones 0)
     (modules 5)
@@ -235,12 +235,11 @@
       (clearance 0.00001))
   )
 
+  (gr_arc (start 199.661852 122.662676) (end 197.85 123.268276) (angle -265.542362) (layer Eco1.User) (width 0.01))
+  (gr_circle (center 223.35 125.660004) (end 223.35 127.310004) (layer Eco1.User) (width 0.01))
   (gr_text "PCB ID: touchpad_bottom_1.0.0" (at 212 156.8) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
-  (gr_circle (center 219.35 149.839996) (end 221 149.839996) (layer Eco1.User) (width 0.01))
-  (gr_circle (center 199.85 149.839996) (end 201.5 149.839996) (layer Eco1.User) (width 0.01))
-  (gr_circle (center 223.35 125.660004) (end 225 125.660004) (layer Eco1.User) (width 0.01))
   (gr_arc (start 198.35 157.339989) (end 197.85 157.34) (angle -89.98521397) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 198.349992 148.129806) (end 198.17899 147.65996) (angle -70.01492042) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 224.85 157.339989) (end 224.85 157.84) (angle -90.00654586) (layer Edge.Cuts) (width 0.01))
@@ -266,6 +265,11 @@
   (gr_arc (start 206.850001 134.840209) (end 207.85 134.840208) (angle -69.99858612) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 206.850001 143.43979) (end 207.19202 144.379485) (angle -70.00237317) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 197.996447 122.013553) (end 199.703553 120.306447) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_circle (center 219.35 149.839996) (end 219.35 151.489996) (layer Eco1.User) (width 0.01))
+  (gr_circle (center 199.85 149.839996) (end 199.85 151.489996) (layer Eco1.User) (width 0.01))
+  (gr_circle (center 223.35 122.059998) (end 223.35 123.959998) (layer Eco1.User) (width 0.01))
+  (gr_circle (center 223.35 155.339996) (end 223.35 157.239996) (layer Eco1.User) (width 0.01))
+  (gr_arc (start 199.666942 155.331772) (end 197.85 155.948276) (angle -322.8371138) (layer Eco1.User) (width 0.01))
 
   (segment (start 211.1 137.639999) (end 212.339999 136.4) (width 0.4064) (layer F.Cu) (net 1))
   (segment (start 212.339999 136.4) (end 222.6 136.4) (width 0.4064) (layer F.Cu) (net 1))
