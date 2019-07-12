@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:bottom-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -40,10 +39,6 @@ NoConn ~ 5750 3950
 Wire Wire Line
 	5300 3550 5750 3550
 Wire Wire Line
-	5300 3650 5750 3650
-Wire Wire Line
-	5300 3750 5750 3750
-Wire Wire Line
 	5300 3850 5750 3850
 Text Label 5750 3550 2    40   ~ 0
 VCC
@@ -55,4 +50,8 @@ Text Label 5750 3850 2    40   ~ 0
 GND
 Text Label 5750 3950 2    40   ~ 0
 MERGE_SENSE
+Text Label 5300 3750 0    40   ~ 0
+SDA
+Text Label 5300 3650 0    40   ~ 0
+SCL
 $EndSCHEMATC
