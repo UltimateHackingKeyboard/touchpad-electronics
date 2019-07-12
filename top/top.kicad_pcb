@@ -845,27 +845,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 119.1) (xy 201 121.9) (xy 198.2 124.7) (xy 195.4 121.9)
+        (xy 199.7 120.5) (xy 202.5 123.3) (xy 199.7 126.1) (xy 196.9 123.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 121.9) (xy 198.2 124.487868) (xy 195.612132 121.9) (xy 198.2 119.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285FE3) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 201.2 152.1) (xy 204 154.9) (xy 201.2 157.7) (xy 198.4 154.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 203.787868 154.9) (xy 201.2 157.487868) (xy 198.612132 154.9) (xy 201.2 152.312132)
+        (xy 202.287868 123.3) (xy 199.7 125.887868) (xy 197.112132 123.3) (xy 199.7 120.712132)
       )
     )
   )
@@ -875,12 +860,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.2 128.1) (xy 198 130.9) (xy 195.2 133.7) (xy 192.4 130.9)
+        (xy 196.7 129.5) (xy 199.5 132.3) (xy 196.7 135.1) (xy 193.9 132.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.787868 130.9) (xy 195.2 133.487868) (xy 192.612132 130.9) (xy 195.2 128.312132)
+        (xy 199.287868 132.3) (xy 196.7 134.887868) (xy 194.112132 132.3) (xy 196.7 129.712132)
       )
     )
   )
@@ -890,12 +875,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.2 134.1) (xy 198 136.9) (xy 195.2 139.7) (xy 192.4 136.9)
+        (xy 196.7 135.5) (xy 199.5 138.3) (xy 196.7 141.1) (xy 193.9 138.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.787868 136.9) (xy 195.2 139.487868) (xy 192.612132 136.9) (xy 195.2 134.312132)
+        (xy 199.287868 138.3) (xy 196.7 140.887868) (xy 194.112132 138.3) (xy 196.7 135.712132)
       )
     )
   )
@@ -905,12 +890,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.2 140.1) (xy 198 142.9) (xy 195.2 145.7) (xy 192.4 142.9)
+        (xy 196.7 141.5) (xy 199.5 144.3) (xy 196.7 147.1) (xy 193.9 144.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.787868 142.9) (xy 195.2 145.487868) (xy 192.612132 142.9) (xy 195.2 140.312132)
+        (xy 199.287868 144.3) (xy 196.7 146.887868) (xy 194.112132 144.3) (xy 196.7 141.712132)
       )
     )
   )
@@ -920,12 +905,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.6 157.7) (xy 200.8 157.7) (xy 198.2 155.1)
+        (xy 194.1 156.1) (xy 199.3 156.1) (xy 196.7 153.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.437868 157.55) (xy 195.962132 157.55) (xy 198.2 155.312132)
+        (xy 198.937868 155.95) (xy 194.462132 155.95) (xy 196.7 153.712132)
       )
     )
   )
@@ -935,12 +920,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.2 122.1) (xy 198 124.9) (xy 195.2 127.7) (xy 192.4 124.9)
+        (xy 196.7 123.5) (xy 199.5 126.3) (xy 196.7 129.1) (xy 193.9 126.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.787868 124.9) (xy 195.2 127.487868) (xy 192.612132 124.9) (xy 195.2 122.312132)
+        (xy 199.287868 126.3) (xy 196.7 128.887868) (xy 194.112132 126.3) (xy 196.7 123.712132)
       )
     )
   )
@@ -950,27 +935,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 195.2 152.1) (xy 198 154.9) (xy 195.2 157.7) (xy 192.4 154.9)
+        (xy 196.7 147.5) (xy 199.5 150.3) (xy 196.7 153.1) (xy 193.9 150.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 197.787868 154.9) (xy 195.2 157.487868) (xy 192.612132 154.9) (xy 195.2 152.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285FE3) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 195.2 146.1) (xy 198 148.9) (xy 195.2 151.7) (xy 192.4 148.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 197.787868 148.9) (xy 195.2 151.487868) (xy 192.612132 148.9) (xy 195.2 146.312132)
+        (xy 199.287868 150.3) (xy 196.7 152.887868) (xy 194.112132 150.3) (xy 196.7 147.712132)
       )
     )
   )
@@ -980,12 +950,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 143.1) (xy 201 145.9) (xy 198.2 148.7) (xy 195.4 145.9)
+        (xy 199.7 144.5) (xy 202.5 147.3) (xy 199.7 150.1) (xy 196.9 147.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 145.9) (xy 198.2 148.487868) (xy 195.612132 145.9) (xy 198.2 143.312132)
+        (xy 202.287868 147.3) (xy 199.7 149.887868) (xy 197.112132 147.3) (xy 199.7 144.712132)
       )
     )
   )
@@ -995,12 +965,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 149.1) (xy 201 151.9) (xy 198.2 154.7) (xy 195.4 151.9)
+        (xy 199.7 150.5) (xy 202.5 153.3) (xy 199.7 156.1) (xy 196.9 153.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 151.9) (xy 198.2 154.487868) (xy 195.612132 151.9) (xy 198.2 149.312132)
+        (xy 202.287868 153.3) (xy 199.7 155.887868) (xy 197.112132 153.3) (xy 199.7 150.712132)
       )
     )
   )
@@ -1010,12 +980,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 137.1) (xy 201 139.9) (xy 198.2 142.7) (xy 195.4 139.9)
+        (xy 199.7 138.5) (xy 202.5 141.3) (xy 199.7 144.1) (xy 196.9 141.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 139.9) (xy 198.2 142.487868) (xy 195.612132 139.9) (xy 198.2 137.312132)
+        (xy 202.287868 141.3) (xy 199.7 143.887868) (xy 197.112132 141.3) (xy 199.7 138.712132)
       )
     )
   )
@@ -1025,12 +995,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.2 128.1) (xy 204 130.9) (xy 201.2 133.7) (xy 198.4 130.9)
+        (xy 202.7 129.5) (xy 205.5 132.3) (xy 202.7 135.1) (xy 199.9 132.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 203.787868 130.9) (xy 201.2 133.487868) (xy 198.612132 130.9) (xy 201.2 128.312132)
+        (xy 205.287868 132.3) (xy 202.7 134.887868) (xy 200.112132 132.3) (xy 202.7 129.712132)
       )
     )
   )
@@ -1040,12 +1010,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.2 122.1) (xy 204 124.9) (xy 201.2 127.7) (xy 198.4 124.9)
+        (xy 202.7 123.5) (xy 205.5 126.3) (xy 202.7 129.1) (xy 199.9 126.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 203.787868 124.9) (xy 201.2 127.487868) (xy 198.612132 124.9) (xy 201.2 122.312132)
+        (xy 205.287868 126.3) (xy 202.7 128.887868) (xy 200.112132 126.3) (xy 202.7 123.712132)
       )
     )
   )
@@ -1055,12 +1025,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.2 140.1) (xy 204 142.9) (xy 201.2 145.7) (xy 198.4 142.9)
+        (xy 202.7 141.5) (xy 205.5 144.3) (xy 202.7 147.1) (xy 199.9 144.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 203.787868 142.9) (xy 201.2 145.487868) (xy 198.612132 142.9) (xy 201.2 140.312132)
+        (xy 205.287868 144.3) (xy 202.7 146.887868) (xy 200.112132 144.3) (xy 202.7 141.712132)
       )
     )
   )
@@ -1070,12 +1040,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 131.1) (xy 201 133.9) (xy 198.2 136.7) (xy 195.4 133.9)
+        (xy 199.7 132.5) (xy 202.5 135.3) (xy 199.7 138.1) (xy 196.9 135.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 133.9) (xy 198.2 136.487868) (xy 195.612132 133.9) (xy 198.2 131.312132)
+        (xy 202.287868 135.3) (xy 199.7 137.887868) (xy 197.112132 135.3) (xy 199.7 132.712132)
       )
     )
   )
@@ -1085,12 +1055,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 198.2 125.1) (xy 201 127.9) (xy 198.2 130.7) (xy 195.4 127.9)
+        (xy 199.7 126.5) (xy 202.5 129.3) (xy 199.7 132.1) (xy 196.9 129.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 200.787868 127.9) (xy 198.2 130.487868) (xy 195.612132 127.9) (xy 198.2 125.312132)
+        (xy 202.287868 129.3) (xy 199.7 131.887868) (xy 197.112132 129.3) (xy 199.7 126.712132)
       )
     )
   )
@@ -1100,12 +1070,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.2 134.1) (xy 204 136.9) (xy 201.2 139.7) (xy 198.4 136.9)
+        (xy 202.7 135.5) (xy 205.5 138.3) (xy 202.7 141.1) (xy 199.9 138.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 203.787868 136.9) (xy 201.2 139.487868) (xy 198.612132 136.9) (xy 201.2 134.312132)
+        (xy 205.287868 138.3) (xy 202.7 140.887868) (xy 200.112132 138.3) (xy 202.7 135.712132)
       )
     )
   )
@@ -1115,12 +1085,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.2 146.1) (xy 204 148.9) (xy 201.2 151.7) (xy 198.4 148.9)
+        (xy 202.7 147.5) (xy 205.5 150.3) (xy 202.7 153.1) (xy 199.9 150.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 203.787868 148.9) (xy 201.2 151.487868) (xy 198.612132 148.9) (xy 201.2 146.312132)
+        (xy 205.287868 150.3) (xy 202.7 152.887868) (xy 200.112132 150.3) (xy 202.7 147.712132)
       )
     )
   )
@@ -1130,27 +1100,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 152.1) (xy 210 154.9) (xy 207.2 157.7) (xy 204.4 154.9)
+        (xy 214.7 123.5) (xy 217.5 126.3) (xy 214.7 129.1) (xy 211.9 126.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 154.9) (xy 207.2 157.487868) (xy 204.612132 154.9) (xy 207.2 152.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285FE3) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 213.2 122.1) (xy 216 124.9) (xy 213.2 127.7) (xy 210.4 124.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 215.787868 124.9) (xy 213.2 127.487868) (xy 210.612132 124.9) (xy 213.2 122.312132)
+        (xy 217.287868 126.3) (xy 214.7 128.887868) (xy 212.112132 126.3) (xy 214.7 123.712132)
       )
     )
   )
@@ -1160,12 +1115,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 216.2 119.1) (xy 219 121.9) (xy 216.2 124.7) (xy 213.4 121.9)
+        (xy 211.7 120.5) (xy 214.5 123.3) (xy 211.7 126.1) (xy 208.9 123.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.787868 121.9) (xy 216.2 124.487868) (xy 213.612132 121.9) (xy 216.2 119.312132)
+        (xy 214.287868 123.3) (xy 211.7 125.887868) (xy 209.112132 123.3) (xy 211.7 120.712132)
       )
     )
   )
@@ -1175,102 +1130,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 119.1) (xy 213 121.9) (xy 210.2 124.7) (xy 207.4 121.9)
+        (xy 205.7 120.5) (xy 208.5 123.3) (xy 205.7 126.1) (xy 202.9 123.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 121.9) (xy 210.2 124.487868) (xy 207.612132 121.9) (xy 210.2 119.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D286059) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 204.2 119.1) (xy 207 121.9) (xy 204.2 124.7) (xy 201.4 121.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 206.787868 121.9) (xy 204.2 124.487868) (xy 201.612132 121.9) (xy 204.2 119.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285E34) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 216.2 131.1) (xy 219 133.9) (xy 216.2 136.7) (xy 213.4 133.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.787868 133.9) (xy 216.2 136.487868) (xy 213.612132 133.9) (xy 216.2 131.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 216.2 125.1) (xy 219 127.9) (xy 216.2 130.7) (xy 213.4 127.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.787868 127.9) (xy 216.2 130.487868) (xy 213.612132 127.9) (xy 216.2 125.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285E36) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 216.2 143.1) (xy 219 145.9) (xy 216.2 148.7) (xy 213.4 145.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.787868 145.9) (xy 216.2 148.487868) (xy 213.612132 145.9) (xy 216.2 143.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285E37) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 216.2 149.1) (xy 219 151.9) (xy 216.2 154.7) (xy 213.4 151.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.787868 151.9) (xy 216.2 154.487868) (xy 213.612132 151.9) (xy 216.2 149.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285E35) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 216.2 137.1) (xy 219 139.9) (xy 216.2 142.7) (xy 213.4 139.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.787868 139.9) (xy 216.2 142.487868) (xy 213.612132 139.9) (xy 216.2 137.312132)
+        (xy 208.287868 123.3) (xy 205.7 125.887868) (xy 203.112132 123.3) (xy 205.7 120.712132)
       )
     )
   )
@@ -1280,12 +1145,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 204.2 131.1) (xy 207 133.9) (xy 204.2 136.7) (xy 201.4 133.9)
+        (xy 205.7 132.5) (xy 208.5 135.3) (xy 205.7 138.1) (xy 202.9 135.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.787868 133.9) (xy 204.2 136.487868) (xy 201.612132 133.9) (xy 204.2 131.312132)
+        (xy 208.287868 135.3) (xy 205.7 137.887868) (xy 203.112132 135.3) (xy 205.7 132.712132)
       )
     )
   )
@@ -1295,12 +1160,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 204.2 149.1) (xy 207 151.9) (xy 204.2 154.7) (xy 201.4 151.9)
+        (xy 205.7 150.5) (xy 208.5 153.3) (xy 205.7 156.1) (xy 202.9 153.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.787868 151.9) (xy 204.2 154.487868) (xy 201.612132 151.9) (xy 204.2 149.312132)
+        (xy 208.287868 153.3) (xy 205.7 155.887868) (xy 203.112132 153.3) (xy 205.7 150.712132)
       )
     )
   )
@@ -1310,12 +1175,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 143.1) (xy 213 145.9) (xy 210.2 148.7) (xy 207.4 145.9)
+        (xy 211.7 144.5) (xy 214.5 147.3) (xy 211.7 150.1) (xy 208.9 147.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 145.9) (xy 210.2 148.487868) (xy 207.612132 145.9) (xy 210.2 143.312132)
+        (xy 214.287868 147.3) (xy 211.7 149.887868) (xy 209.112132 147.3) (xy 211.7 144.712132)
       )
     )
   )
@@ -1325,12 +1190,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213.2 128.1) (xy 216 130.9) (xy 213.2 133.7) (xy 210.4 130.9)
+        (xy 214.7 129.5) (xy 217.5 132.3) (xy 214.7 135.1) (xy 211.9 132.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 215.787868 130.9) (xy 213.2 133.487868) (xy 210.612132 130.9) (xy 213.2 128.312132)
+        (xy 217.287868 132.3) (xy 214.7 134.887868) (xy 212.112132 132.3) (xy 214.7 129.712132)
       )
     )
   )
@@ -1340,12 +1205,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 149.1) (xy 213 151.9) (xy 210.2 154.7) (xy 207.4 151.9)
+        (xy 211.7 150.5) (xy 214.5 153.3) (xy 211.7 156.1) (xy 208.9 153.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 151.9) (xy 210.2 154.487868) (xy 207.612132 151.9) (xy 210.2 149.312132)
+        (xy 214.287868 153.3) (xy 211.7 155.887868) (xy 209.112132 153.3) (xy 211.7 150.712132)
       )
     )
   )
@@ -1355,27 +1220,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 128.1) (xy 210 130.9) (xy 207.2 133.7) (xy 204.4 130.9)
+        (xy 208.7 129.5) (xy 211.5 132.3) (xy 208.7 135.1) (xy 205.9 132.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 130.9) (xy 207.2 133.487868) (xy 204.612132 130.9) (xy 207.2 128.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D285E3F) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 213.2 152.1) (xy 216 154.9) (xy 213.2 157.7) (xy 210.4 154.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 215.787868 154.9) (xy 213.2 157.487868) (xy 210.612132 154.9) (xy 213.2 152.312132)
+        (xy 211.287868 132.3) (xy 208.7 134.887868) (xy 206.112132 132.3) (xy 208.7 129.712132)
       )
     )
   )
@@ -1385,12 +1235,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 204.2 125.1) (xy 207 127.9) (xy 204.2 130.7) (xy 201.4 127.9)
+        (xy 205.7 126.5) (xy 208.5 129.3) (xy 205.7 132.1) (xy 202.9 129.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.787868 127.9) (xy 204.2 130.487868) (xy 201.612132 127.9) (xy 204.2 125.312132)
+        (xy 208.287868 129.3) (xy 205.7 131.887868) (xy 203.112132 129.3) (xy 205.7 126.712132)
       )
     )
   )
@@ -1400,12 +1250,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213.2 140.1) (xy 216 142.9) (xy 213.2 145.7) (xy 210.4 142.9)
+        (xy 214.7 141.5) (xy 217.5 144.3) (xy 214.7 147.1) (xy 211.9 144.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 215.787868 142.9) (xy 213.2 145.487868) (xy 210.612132 142.9) (xy 213.2 140.312132)
+        (xy 217.287868 144.3) (xy 214.7 146.887868) (xy 212.112132 144.3) (xy 214.7 141.712132)
       )
     )
   )
@@ -1415,12 +1265,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 137.1) (xy 213 139.9) (xy 210.2 142.7) (xy 207.4 139.9)
+        (xy 211.7 138.5) (xy 214.5 141.3) (xy 211.7 144.1) (xy 208.9 141.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 139.9) (xy 210.2 142.487868) (xy 207.612132 139.9) (xy 210.2 137.312132)
+        (xy 214.287868 141.3) (xy 211.7 143.887868) (xy 209.112132 141.3) (xy 211.7 138.712132)
       )
     )
   )
@@ -1430,12 +1280,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 204.2 143.1) (xy 207 145.9) (xy 204.2 148.7) (xy 201.4 145.9)
+        (xy 205.7 144.5) (xy 208.5 147.3) (xy 205.7 150.1) (xy 202.9 147.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.787868 145.9) (xy 204.2 148.487868) (xy 201.612132 145.9) (xy 204.2 143.312132)
+        (xy 208.287868 147.3) (xy 205.7 149.887868) (xy 203.112132 147.3) (xy 205.7 144.712132)
       )
     )
   )
@@ -1445,12 +1295,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213.2 134.1) (xy 216 136.9) (xy 213.2 139.7) (xy 210.4 136.9)
+        (xy 214.7 135.5) (xy 217.5 138.3) (xy 214.7 141.1) (xy 211.9 138.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 215.787868 136.9) (xy 213.2 139.487868) (xy 210.612132 136.9) (xy 213.2 134.312132)
+        (xy 217.287868 138.3) (xy 214.7 140.887868) (xy 212.112132 138.3) (xy 214.7 135.712132)
       )
     )
   )
@@ -1460,12 +1310,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 146.1) (xy 210 148.9) (xy 207.2 151.7) (xy 204.4 148.9)
+        (xy 208.7 147.5) (xy 211.5 150.3) (xy 208.7 153.1) (xy 205.9 150.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 148.9) (xy 207.2 151.487868) (xy 204.612132 148.9) (xy 207.2 146.312132)
+        (xy 211.287868 150.3) (xy 208.7 152.887868) (xy 206.112132 150.3) (xy 208.7 147.712132)
       )
     )
   )
@@ -1475,12 +1325,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 140.1) (xy 210 142.9) (xy 207.2 145.7) (xy 204.4 142.9)
+        (xy 208.7 141.5) (xy 211.5 144.3) (xy 208.7 147.1) (xy 205.9 144.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 142.9) (xy 207.2 145.487868) (xy 204.612132 142.9) (xy 207.2 140.312132)
+        (xy 211.287868 144.3) (xy 208.7 146.887868) (xy 206.112132 144.3) (xy 208.7 141.712132)
       )
     )
   )
@@ -1490,12 +1340,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 131.1) (xy 213 133.9) (xy 210.2 136.7) (xy 207.4 133.9)
+        (xy 211.7 132.5) (xy 214.5 135.3) (xy 211.7 138.1) (xy 208.9 135.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 133.9) (xy 210.2 136.487868) (xy 207.612132 133.9) (xy 210.2 131.312132)
+        (xy 214.287868 135.3) (xy 211.7 137.887868) (xy 209.112132 135.3) (xy 211.7 132.712132)
       )
     )
   )
@@ -1505,12 +1355,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 210.2 125.1) (xy 213 127.9) (xy 210.2 130.7) (xy 207.4 127.9)
+        (xy 211.7 126.5) (xy 214.5 129.3) (xy 211.7 132.1) (xy 208.9 129.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.787868 127.9) (xy 210.2 130.487868) (xy 207.612132 127.9) (xy 210.2 125.312132)
+        (xy 214.287868 129.3) (xy 211.7 131.887868) (xy 209.112132 129.3) (xy 211.7 126.712132)
       )
     )
   )
@@ -1520,12 +1370,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 122.1) (xy 210 124.9) (xy 207.2 127.7) (xy 204.4 124.9)
+        (xy 208.7 123.5) (xy 211.5 126.3) (xy 208.7 129.1) (xy 205.9 126.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 124.9) (xy 207.2 127.487868) (xy 204.612132 124.9) (xy 207.2 122.312132)
+        (xy 211.287868 126.3) (xy 208.7 128.887868) (xy 206.112132 126.3) (xy 208.7 123.712132)
       )
     )
   )
@@ -1535,12 +1385,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.2 134.1) (xy 210 136.9) (xy 207.2 139.7) (xy 204.4 136.9)
+        (xy 208.7 135.5) (xy 211.5 138.3) (xy 208.7 141.1) (xy 205.9 138.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.787868 136.9) (xy 207.2 139.487868) (xy 204.612132 136.9) (xy 207.2 134.312132)
+        (xy 211.287868 138.3) (xy 208.7 140.887868) (xy 206.112132 138.3) (xy 208.7 135.712132)
       )
     )
   )
@@ -1550,12 +1400,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213.2 146.1) (xy 216 148.9) (xy 213.2 151.7) (xy 210.4 148.9)
+        (xy 214.7 147.5) (xy 217.5 150.3) (xy 214.7 153.1) (xy 211.9 150.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 215.787868 148.9) (xy 213.2 151.487868) (xy 210.612132 148.9) (xy 213.2 146.312132)
+        (xy 217.287868 150.3) (xy 214.7 152.887868) (xy 212.112132 150.3) (xy 214.7 147.712132)
       )
     )
   )
@@ -1565,12 +1415,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 204.2 137.1) (xy 207 139.9) (xy 204.2 142.7) (xy 201.4 139.9)
+        (xy 205.7 138.5) (xy 208.5 141.3) (xy 205.7 144.1) (xy 202.9 141.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.787868 139.9) (xy 204.2 142.487868) (xy 201.612132 139.9) (xy 204.2 137.312132)
+        (xy 208.287868 141.3) (xy 205.7 143.887868) (xy 203.112132 141.3) (xy 205.7 138.712132)
       )
     )
   )
@@ -1580,12 +1430,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 201.6 157.7) (xy 206.8 157.7) (xy 204.2 155.1)
+        (xy 200.1 156.1) (xy 205.3 156.1) (xy 202.7 153.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.437868 157.55) (xy 201.962132 157.55) (xy 204.2 155.312132)
+        (xy 204.937868 155.95) (xy 200.462132 155.95) (xy 202.7 153.712132)
       )
     )
   )
@@ -1595,12 +1445,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 207.6 157.7) (xy 212.8 157.7) (xy 210.2 155.1)
+        (xy 206.1 156.1) (xy 211.3 156.1) (xy 208.7 153.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 212.437868 157.55) (xy 207.962132 157.55) (xy 210.2 155.312132)
+        (xy 210.937868 155.95) (xy 206.462132 155.95) (xy 208.7 153.712132)
       )
     )
   )
@@ -1610,27 +1460,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 213.6 157.7) (xy 218.8 157.7) (xy 216.2 155.1)
+        (xy 212.1 156.1) (xy 217.3 156.1) (xy 214.7 153.5)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.437868 157.55) (xy 213.962132 157.55) (xy 216.2 155.312132)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D286280) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 219 157.5) (xy 219 152.3) (xy 216.4 154.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 218.85 157.137868) (xy 216.612132 154.9) (xy 218.85 152.662132)
+        (xy 216.937868 155.95) (xy 212.462132 155.95) (xy 214.7 153.712132)
       )
     )
   )
@@ -1640,12 +1475,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 151.5) (xy 219 146.3) (xy 216.4 148.9)
+        (xy 217.5 155.9) (xy 217.5 150.7) (xy 214.9 153.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 151.137868) (xy 216.612132 148.9) (xy 218.85 146.662132)
+        (xy 217.35 155.537868) (xy 215.112132 153.3) (xy 217.35 151.062132)
       )
     )
   )
@@ -1655,12 +1490,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 145.5) (xy 219 140.3) (xy 216.4 142.9)
+        (xy 217.5 149.9) (xy 217.5 144.7) (xy 214.9 147.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 145.137868) (xy 216.612132 142.9) (xy 218.85 140.662132)
+        (xy 217.35 149.537868) (xy 215.112132 147.3) (xy 217.35 145.062132)
       )
     )
   )
@@ -1670,12 +1505,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 139.5) (xy 219 134.3) (xy 216.4 136.9)
+        (xy 217.5 143.9) (xy 217.5 138.7) (xy 214.9 141.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 139.137868) (xy 216.612132 136.9) (xy 218.85 134.662132)
+        (xy 217.35 143.537868) (xy 215.112132 141.3) (xy 217.35 139.062132)
       )
     )
   )
@@ -1685,12 +1520,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 133.5) (xy 219 128.3) (xy 216.4 130.9)
+        (xy 217.5 137.9) (xy 217.5 132.7) (xy 214.9 135.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 133.137868) (xy 216.612132 130.9) (xy 218.85 128.662132)
+        (xy 217.35 137.537868) (xy 215.112132 135.3) (xy 217.35 133.062132)
       )
     )
   )
@@ -1700,12 +1535,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 219 127.5) (xy 219 122.3) (xy 216.4 124.9)
+        (xy 217.5 131.9) (xy 217.5 126.7) (xy 214.9 129.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 127.137868) (xy 216.612132 124.9) (xy 218.85 122.662132)
+        (xy 217.35 131.537868) (xy 215.112132 129.3) (xy 217.35 127.062132)
       )
     )
   )
@@ -1715,12 +1550,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 215.8 119.1) (xy 210.6 119.1) (xy 213.2 121.7)
+        (xy 217.3 120.5) (xy 212.1 120.5) (xy 214.7 123.1)
       )
     )
     (filled_polygon
       (pts
-        (xy 213.2 121.487868) (xy 210.962132 119.25) (xy 215.437868 119.25)
+        (xy 214.7 122.887868) (xy 212.462132 120.65) (xy 216.937868 120.65)
       )
     )
   )
@@ -1730,12 +1565,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 209.8 119.1) (xy 204.6 119.1) (xy 207.2 121.7)
+        (xy 211.3 120.5) (xy 206.1 120.5) (xy 208.7 123.1)
       )
     )
     (filled_polygon
       (pts
-        (xy 207.2 121.487868) (xy 204.962132 119.25) (xy 209.437868 119.25)
+        (xy 208.7 122.887868) (xy 206.462132 120.65) (xy 210.937868 120.65)
       )
     )
   )
@@ -1745,27 +1580,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 203.8 119.1) (xy 198.6 119.1) (xy 201.2 121.7)
+        (xy 205.3 120.5) (xy 200.1 120.5) (xy 202.7 123.1)
       )
     )
     (filled_polygon
       (pts
-        (xy 201.2 121.487868) (xy 198.962132 119.25) (xy 203.437868 119.25)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D2862CD) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.3)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 193.45 120.35) (xy 192.4 121.4) (xy 192.4 124.5) (xy 195 121.9)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 194.787868 121.9) (xy 192.55 124.137868) (xy 192.55 121.462132) (xy 193.45 120.562132)
+        (xy 202.7 122.887868) (xy 200.462132 120.65) (xy 204.937868 120.65)
       )
     )
   )
@@ -1775,12 +1595,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 192.4 125.3) (xy 192.4 130.5) (xy 195 127.9)
+        (xy 193.9 126.7) (xy 193.9 131.9) (xy 196.5 129.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.787868 127.9) (xy 192.55 130.137868) (xy 192.55 125.662132)
+        (xy 196.287868 129.3) (xy 194.05 131.537868) (xy 194.05 127.062132)
       )
     )
   )
@@ -1790,12 +1610,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 192.4 131.3) (xy 192.4 136.5) (xy 195 133.9)
+        (xy 193.9 132.7) (xy 193.9 137.9) (xy 196.5 135.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.787868 133.9) (xy 192.55 136.137868) (xy 192.55 131.662132)
+        (xy 196.287868 135.3) (xy 194.05 137.537868) (xy 194.05 133.062132)
       )
     )
   )
@@ -1805,12 +1625,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 192.4 137.3) (xy 192.4 142.5) (xy 195 139.9)
+        (xy 193.9 138.7) (xy 193.9 143.9) (xy 196.5 141.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.787868 139.9) (xy 192.55 142.137868) (xy 192.55 137.662132)
+        (xy 196.287868 141.3) (xy 194.05 143.537868) (xy 194.05 139.062132)
       )
     )
   )
@@ -1820,12 +1640,12 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 192.4 143.3) (xy 192.4 148.5) (xy 195 145.9)
+        (xy 193.9 144.7) (xy 193.9 149.9) (xy 196.5 147.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.787868 145.9) (xy 192.55 148.137868) (xy 192.55 143.662132)
+        (xy 196.287868 147.3) (xy 194.05 149.537868) (xy 194.05 145.062132)
       )
     )
   )
@@ -1835,57 +1655,57 @@
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 192.4 149.3) (xy 192.4 154.5) (xy 195 151.9)
+        (xy 193.9 150.7) (xy 193.9 155.9) (xy 196.5 153.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.787868 151.9) (xy 192.55 154.137868) (xy 192.55 149.662132)
+        (xy 196.287868 153.3) (xy 194.05 155.537868) (xy 194.05 151.062132)
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D28695B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 194.8 157.7) (xy 192.4 155.3) (xy 192.4 156.65) (xy 193.45 157.7)
+        (xy 199.3 120.5) (xy 194.1 120.5) (xy 196.7 123.1)
       )
     )
     (filled_polygon
       (pts
-        (xy 194.437868 157.55) (xy 193.512132 157.55) (xy 192.55 156.587868) (xy 192.55 155.662132)
+        (xy 196.7 122.887868) (xy 194.462132 120.65) (xy 198.937868 120.65)
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D2862D9) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D28695B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.65 120.15) (xy 194.7 119.1) (xy 197.8 119.1) (xy 195.2 121.7)
+        (xy 193.9 120.7) (xy 193.9 125.9) (xy 196.5 123.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 195.2 121.487868) (xy 193.862132 120.15) (xy 194.762132 119.25) (xy 197.437868 119.25)
+        (xy 196.287868 123.3) (xy 194.05 125.537868) (xy 194.05 121.062132)
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D286335) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D28695B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 216.6 119.1) (xy 219 121.5) (xy 219 120.15) (xy 217.95 119.1)
+        (xy 217.5 125.9) (xy 217.5 120.7) (xy 214.9 123.3)
       )
     )
     (filled_polygon
       (pts
-        (xy 218.85 120.212132) (xy 218.85 121.137868) (xy 216.962132 119.25) (xy 217.887868 119.25)
+        (xy 217.35 125.537868) (xy 215.112132 123.3) (xy 217.35 121.062132)
       )
     )
   )
