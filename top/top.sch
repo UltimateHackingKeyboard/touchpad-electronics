@@ -80,23 +80,23 @@ $EndComp
 $Comp
 L power:+3V3 #PWR032
 U 1 1 5781AB7F
-P 2000 6600
-F 0 "#PWR032" H 2000 6450 50  0001 C CNN
-F 1 "+3V3" H 2000 6750 40  0000 C CNN
-F 2 "" H 2000 6600 50  0000 C CNN
-F 3 "" H 2000 6600 50  0000 C CNN
-	1    2000 6600
-	1    0    0    -1  
+P 1750 6350
+F 0 "#PWR032" H 1750 6200 50  0001 C CNN
+F 1 "+3V3" H 1750 6500 40  0000 C CNN
+F 2 "" H 1750 6350 50  0000 C CNN
+F 3 "" H 1750 6350 50  0000 C CNN
+	1    1750 6350
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR031
 U 1 1 5781AB79
-P 1800 6000
-F 0 "#PWR031" H 1800 6000 30  0001 C CNN
-F 1 "GND" H 1800 5930 30  0001 C CNN
-F 2 "" H 1800 6000 60  0001 C CNN
-F 3 "" H 1800 6000 60  0001 C CNN
-	1    1800 6000
+P 1750 6250
+F 0 "#PWR031" H 1750 6250 30  0001 C CNN
+F 1 "GND" H 1750 6180 30  0001 C CNN
+F 2 "" H 1750 6250 60  0001 C CNN
+F 3 "" H 1750 6250 60  0001 C CNN
+	1    1750 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -306,27 +306,10 @@ Connection ~ 7850 5500
 Connection ~ 1450 2350
 Wire Wire Line
 	1450 2350 1850 2350
-$Comp
-L ugl:CONN_10 P1
-U 1 1 5BCEC0CB
-P 1350 6450
-F 0 "P1" V 1300 6450 60  0000 C CNN
-F 1 "CONN_10" V 1400 6450 60  0000 C CNN
-F 2 "ugl:Tag_Connect_2x5_Header_With_No_Legs" H 1350 6250 60  0001 C CNN
-F 3 "" H 1350 6250 60  0000 C CNN
-	1    1350 6450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 6000 1800 6000
-Text Label 1700 6300 0    40   ~ 0
+Text Label 1750 6550 0    40   ~ 0
 SDA
-NoConn ~ 1700 6400
-NoConn ~ 1700 6500
-Text Label 1700 6200 0    40   ~ 0
+Text Label 1750 6450 0    40   ~ 0
 SCL
-Wire Wire Line
-	1700 6600 2000 6600
 Wire Wire Line
 	8200 5500 8200 5450
 Wire Wire Line
@@ -374,7 +357,7 @@ U 1 1 5D285B90
 P 7300 2550
 F 0 "U1" H 7300 3750 40  0000 C CNN
 F 1 "IQS572" H 7300 3650 40  0000 C CNN
-F 2 "ugl:QFN-28_4.3x4.3_Pitch0.5mm" H 7300 3631 60  0001 C CNN
+F 2 "ugl:QFN-28_4.3x4.3_Pitch0.5mm_Alt_PAD" H 7300 3631 60  0001 C CNN
 F 3 "" H 7300 2600 60  0000 C CNN
 	1    7300 2550
 	1    0    0    -1  
@@ -383,9 +366,9 @@ Text Label 6900 2050 2    40   ~ 0
 SCL
 Text Label 6900 1950 2    40   ~ 0
 SDA
-Text Label 1700 6700 0    40   ~ 0
+Text Label 1750 6150 0    40   ~ 0
 PGM
-Text Label 1700 6900 0    40   ~ 0
+Text Label 1750 6050 0    40   ~ 0
 NRST
 $Comp
 L ugl:C C1
@@ -528,10 +511,6 @@ Text Label 6900 2950 2    50   ~ 0
 RX4
 Text Label 6900 3050 2    50   ~ 0
 RX5
-Text Label 6900 3150 2    50   ~ 0
-RX6
-Text Label 6900 3250 2    50   ~ 0
-RX7
 Text Label 7700 2550 0    50   ~ 0
 TX0
 Text Label 7700 2650 0    50   ~ 0
@@ -540,16 +519,6 @@ Text Label 7700 2750 0    50   ~ 0
 TX2
 Text Label 7700 2850 0    50   ~ 0
 TX3
-Text Label 7700 2950 0    50   ~ 0
-TX4
-Text Label 7700 3050 0    50   ~ 0
-TX5
-Text Label 7700 3150 0    50   ~ 0
-TX6
-Text Label 7700 3250 0    50   ~ 0
-TX7
-Text Label 7700 3350 0    50   ~ 0
-TX8
 $Comp
 L ugl:R R2
 U 1 1 5D2CCEC4
@@ -666,8 +635,6 @@ F 3 "" H 6650 2250 60  0001 C CNN
 	1    6650 2250
 	0    -1   -1   0   
 $EndComp
-Text Label 1700 6800 0    40   ~ 0
-RDY
 Wire Wire Line
 	6650 2250 6900 2250
 Text Label 6900 2250 2    40   ~ 0
@@ -680,5 +647,34 @@ Wire Wire Line
 	1450 2850 1450 3200
 Wire Wire Line
 	1450 3200 1850 3200
-NoConn ~ 1700 6100
+$Comp
+L ugl:CONN_6 P1
+U 1 1 5D2D8FA9
+P 1400 6300
+F 0 "P1" V 1350 6300 60  0000 C CNN
+F 1 "CONN_6" V 1450 6300 60  0000 C CNN
+F 2 "ugl:Tag_Connect_2x3_Header_No_Legs" H 1400 6300 60  0001 C CNN
+F 3 "" H 1400 6300 60  0000 C CNN
+	1    1400 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ICEDLeft:PWR_FLAG #FLG0101
+U 1 1 5D2E62C8
+P 1450 3200
+F 0 "#FLG0101" H 1450 3295 30  0001 C CNN
+F 1 "PWR_FLAG" V 1300 3300 40  0000 C CNN
+F 2 "" H 1450 3200 60  0000 C CNN
+F 3 "" H 1450 3200 60  0000 C CNN
+	1    1450 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1450 3200
+NoConn ~ 7700 2950
+NoConn ~ 7700 3050
+NoConn ~ 7700 3150
+NoConn ~ 7700 3250
+NoConn ~ 7700 3350
+NoConn ~ 6900 3150
+NoConn ~ 6900 3250
 $EndSCHEMATC
