@@ -78,17 +78,6 @@ F 3 "" H 2050 2350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR032
-U 1 1 5781AB7F
-P 1900 6450
-F 0 "#PWR032" H 1900 6300 50  0001 C CNN
-F 1 "+3V3" H 1900 6600 40  0000 C CNN
-F 2 "" H 1900 6450 50  0000 C CNN
-F 3 "" H 1900 6450 50  0000 C CNN
-	1    1900 6450
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR031
 U 1 1 5781AB79
 P 1900 5850
@@ -308,8 +297,6 @@ Wire Wire Line
 	1450 2350 1850 2350
 Text Label 1900 6150 0    40   ~ 0
 SDA
-Text Label 1900 6050 0    40   ~ 0
-SCL
 Wire Wire Line
 	8200 5500 8200 5450
 Wire Wire Line
@@ -669,7 +656,6 @@ F 3 "" H 1550 6100 60  0000 C CNN
 	1    1550 6300
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 1900 5950
 $Comp
 L ugl:TEST_POINT TP_PGM1
 U 1 1 5D2EEA9E
@@ -700,4 +686,22 @@ NoConn ~ 1900 6350
 NoConn ~ 1900 6550
 NoConn ~ 1900 6650
 NoConn ~ 1900 6750
+Text Label 1900 6050 0    40   ~ 0
+SCL
+NoConn ~ 1900 6450
+$Comp
+L ICEDLeft:+5V #PWR?
+U 1 1 5D2F1F52
+P 2250 5850
+F 0 "#PWR?" H 2250 5700 50  0001 C CNN
+F 1 "+5V" H 2250 6000 40  0000 C CNN
+F 2 "" H 2250 5850 50  0000 C CNN
+F 3 "" H 2250 5850 50  0000 C CNN
+	1    2250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5950 2250 5950
+Wire Wire Line
+	2250 5950 2250 5850
 $EndSCHEMATC
