@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:top-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -687,19 +688,6 @@ NoConn ~ 1900 6750
 Text Label 1900 6050 0    40   ~ 0
 SCL
 NoConn ~ 1900 6450
-$Comp
-L ICEDLeft:+5V #PWR?
-U 1 1 5D2F1F52
-P 2250 5850
-F 0 "#PWR?" H 2250 5700 50  0001 C CNN
-F 1 "+5V" H 2250 6000 40  0000 C CNN
-F 2 "" H 2250 5850 50  0000 C CNN
-F 3 "" H 2250 5850 50  0000 C CNN
-	1    2250 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5950 2250 5950
-Wire Wire Line
-	2250 5950 2250 5850
+Text Label 1900 5950 0    40   ~ 0
+VCC_BOTTOM
 $EndSCHEMATC
