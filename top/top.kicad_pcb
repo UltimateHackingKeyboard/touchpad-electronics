@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 71)
-    (tracks 342)
+    (tracks 344)
     (zones 0)
     (modules 25)
     (nets 40)
@@ -50,7 +50,7 @@
     (user_trace_width 0.762)
     (trace_clearance 0.16)
     (zone_clearance 0.254)
-    (zone_45_only yes)
+    (zone_45_only no)
     (trace_min 0.2032)
     (segment_width 0.3)
     (edge_width 0.1)
@@ -905,6 +905,8 @@
   (gr_arc (start 219.589762 156.897507) (end 219.589772 156.397519) (angle -90) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 219.589762 152.99753) (end 219.089772 152.997519) (angle -90) (layer Edge.Cuts) (width 0.01))
 
+  (via (at 215.95 121.2) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 0) (tstamp 5D972B0E))
+  (via (at 215.95 122.75) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 0) (tstamp 5D972B0E))
   (segment (start 200.25 140.1) (end 198.3 140.1) (width 0.508) (layer B.Cu) (net 1))
   (segment (start 198.3 140.1) (end 197.6 139.4) (width 0.508) (layer B.Cu) (net 1))
   (segment (start 205.816233 146.533767) (end 206.6 145.75) (width 0.254) (layer B.Cu) (net 1))
@@ -1058,13 +1060,13 @@
   (segment (start 206.7 147.35) (end 206.6 147.25) (width 0.254) (layer B.Cu) (net 14))
   (segment (start 206.7 149.1) (end 206.7 147.35) (width 0.254) (layer B.Cu) (net 14))
   (segment (start 206.6 147.25) (end 207.9 147.25) (width 0.3048) (layer B.Cu) (net 14))
-  (segment (start 208.3 123.3) (end 209.1 123.3) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D2DFF63))
-  (segment (start 202.3 123.3) (end 203.1 123.3) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D2DFF63))
-  (segment (start 196.3 123.3) (end 197.1 123.3) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D2DFF63))
-  (segment (start 214.3 123.3) (end 215.1 123.3) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D2DF91E))
-  (via (at 217.8126 125.4506) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 16))
-  (segment (start 217.8126 125.4506) (end 217.551 125.4506) (width 0.254) (layer F.Cu) (net 16))
-  (segment (start 217.551 125.4506) (end 217.2716 125.1712) (width 0.254) (layer F.Cu) (net 16))
+  (segment (start 236.95 125.45) (end 237.75 125.45) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972EE5))
+  (segment (start 230.95 125.45) (end 231.75 125.45) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972EFD))
+  (segment (start 224.95 125.45) (end 225.75 125.45) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972EEE))
+  (segment (start 242.95 125.45) (end 243.75 125.45) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972EF7))
+  (via (at 246.4626 127.6006) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 16) (tstamp 5D972E4C))
+  (segment (start 246.4626 127.6006) (end 246.201 127.6006) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972F00))
+  (segment (start 246.201 127.6006) (end 245.9216 127.3212) (width 0.254) (layer F.Cu) (net 16) (tstamp 5D972EDF))
   (segment (start 216.6874 141.9098) (end 216.6874 142.1892) (width 0.254) (layer B.Cu) (net 16))
   (segment (start 216.6874 136.9822) (end 216.6874 141.9098) (width 0.254) (layer B.Cu) (net 16))
   (segment (start 217.1446 136.525) (end 216.6874 136.9822) (width 0.254) (layer B.Cu) (net 16))
@@ -1079,13 +1081,13 @@
   (segment (start 216.6874 142.4178) (end 216.281 142.8242) (width 0.254) (layer B.Cu) (net 16))
   (segment (start 216.281 148.2344) (end 215.0618 149.4536) (width 0.254) (layer B.Cu) (net 16))
   (segment (start 215.0618 149.4536) (end 210.680363 149.4536) (width 0.254) (layer B.Cu) (net 16))
-  (segment (start 214.3 129.3) (end 215.1 129.3) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D2DF91E))
-  (segment (start 196.3 129.3) (end 197.1 129.3) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D2DFF63))
-  (segment (start 202.3 129.3) (end 203.1 129.3) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D2DFF63))
-  (segment (start 208.3 129.3) (end 209.1 129.3) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D2DFF63))
-  (via (at 217.8126 131.445) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 17))
-  (segment (start 217.8126 131.445) (end 217.5764 131.445) (width 0.254) (layer F.Cu) (net 17))
-  (segment (start 217.5764 131.445) (end 217.17 131.0386) (width 0.254) (layer F.Cu) (net 17))
+  (segment (start 242.95 131.45) (end 243.75 131.45) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972EDC))
+  (segment (start 224.95 131.45) (end 225.75 131.45) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972F06))
+  (segment (start 230.95 131.45) (end 231.75 131.45) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972EEB))
+  (segment (start 236.95 131.45) (end 237.75 131.45) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972EE8))
+  (via (at 246.4626 133.595) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 17) (tstamp 5D972E43))
+  (segment (start 246.4626 133.595) (end 246.2264 133.595) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972EE2))
+  (segment (start 246.2264 133.595) (end 245.82 133.1886) (width 0.254) (layer F.Cu) (net 17) (tstamp 5D972F03))
   (segment (start 216.720389 148.405683) (end 216.72039 142.995482) (width 0.254) (layer B.Cu) (net 17))
   (segment (start 207.85 151.25) (end 209.494635 151.25) (width 0.254) (layer B.Cu) (net 17))
   (segment (start 217.143529 142.572343) (end 217.143529 137.136743) (width 0.254) (layer B.Cu) (net 17))
@@ -1095,13 +1097,13 @@
   (segment (start 215.240661 149.885411) (end 216.720389 148.405683) (width 0.254) (layer B.Cu) (net 17))
   (segment (start 210.859224 149.885411) (end 215.240661 149.885411) (width 0.254) (layer B.Cu) (net 17))
   (segment (start 217.143529 137.136743) (end 217.8126 136.467672) (width 0.254) (layer B.Cu) (net 17))
-  (segment (start 214.3 135.3) (end 215.1 135.3) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D2DF91E))
-  (segment (start 208.3 135.3) (end 209.1 135.3) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D2DFF63))
-  (segment (start 202.3 135.3) (end 203.1 135.3) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D2DFF63))
-  (segment (start 196.3 135.3) (end 197.1 135.3) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D2DFF63))
-  (via (at 217.8126 137.4394) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 18))
-  (segment (start 217.8126 137.4394) (end 217.4748 137.4394) (width 0.254) (layer F.Cu) (net 18))
-  (segment (start 217.4748 137.4394) (end 217.2462 137.2108) (width 0.254) (layer F.Cu) (net 18))
+  (segment (start 242.95 137.45) (end 243.75 137.45) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972EFA))
+  (segment (start 236.95 137.45) (end 237.75 137.45) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972EF4))
+  (segment (start 230.95 137.45) (end 231.75 137.45) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972EF1))
+  (segment (start 224.95 137.45) (end 225.75 137.45) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972ECA))
+  (via (at 246.4626 139.5894) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 18) (tstamp 5D972E5E))
+  (segment (start 246.4626 139.5894) (end 246.1248 139.5894) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972EBB))
+  (segment (start 246.1248 139.5894) (end 245.8962 139.3608) (width 0.254) (layer F.Cu) (net 18) (tstamp 5D972EA6))
   (segment (start 215.419522 150.317222) (end 217.1522 148.584544) (width 0.254) (layer B.Cu) (net 18))
   (segment (start 217.1522 148.584544) (end 217.1522 143.174344) (width 0.254) (layer B.Cu) (net 18))
   (segment (start 217.8126 142.513944) (end 217.8126 137.4394) (width 0.254) (layer B.Cu) (net 18))
@@ -1109,123 +1111,123 @@
   (segment (start 209.605307 151.75) (end 211.038085 150.317222) (width 0.254) (layer B.Cu) (net 18))
   (segment (start 207.85 151.75) (end 209.605307 151.75) (width 0.254) (layer B.Cu) (net 18))
   (segment (start 217.1522 143.174344) (end 217.8126 142.513944) (width 0.254) (layer B.Cu) (net 18))
-  (segment (start 214.3 141.3) (end 215.1 141.3) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D2DF91E))
-  (segment (start 196.3 141.3) (end 197.1 141.3) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D2DFF63))
-  (segment (start 202.3 141.3) (end 203.1 141.3) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D2DFF63))
-  (segment (start 208.3 141.3) (end 209.1 141.3) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D2DFF63))
-  (via (at 217.8126 143.4592) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 19))
-  (segment (start 217.8126 143.4592) (end 217.5002 143.4592) (width 0.254) (layer F.Cu) (net 19))
-  (segment (start 217.5002 143.4592) (end 217.2208 143.1798) (width 0.254) (layer F.Cu) (net 19))
+  (segment (start 242.95 143.45) (end 243.75 143.45) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972ED6))
+  (segment (start 224.95 143.45) (end 225.75 143.45) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972EAF))
+  (segment (start 230.95 143.45) (end 231.75 143.45) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972EAC))
+  (segment (start 236.95 143.45) (end 237.75 143.45) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972EA9))
+  (via (at 246.4626 145.6092) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 19) (tstamp 5D972E6A))
+  (segment (start 246.4626 145.6092) (end 246.1502 145.6092) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972ED9))
+  (segment (start 246.1502 145.6092) (end 245.8708 145.3298) (width 0.254) (layer F.Cu) (net 19) (tstamp 5D972ED0))
   (segment (start 217.8126 148.534816) (end 217.8126 143.4592) (width 0.254) (layer B.Cu) (net 19))
   (segment (start 211.216946 150.749033) (end 215.598383 150.749033) (width 0.254) (layer B.Cu) (net 19))
   (segment (start 215.598383 150.749033) (end 217.8126 148.534816) (width 0.254) (layer B.Cu) (net 19))
   (segment (start 209.715979 152.25) (end 211.216946 150.749033) (width 0.254) (layer B.Cu) (net 19))
   (segment (start 207.85 152.25) (end 209.715979 152.25) (width 0.254) (layer B.Cu) (net 19))
-  (segment (start 214.3 147.3) (end 215.1 147.3) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D2DF91E))
-  (segment (start 208.3 147.3) (end 209.1 147.3) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D2DFF63))
-  (segment (start 202.3 147.3) (end 203.1 147.3) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D2DFF63))
-  (segment (start 196.3 147.3) (end 197.1 147.3) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D2DFF63))
-  (via (at 217.805 149.479) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 20))
-  (segment (start 217.6272 149.3012) (end 217.297 149.3012) (width 0.254) (layer F.Cu) (net 20))
-  (segment (start 217.805 149.479) (end 217.6272 149.3012) (width 0.254) (layer F.Cu) (net 20))
+  (segment (start 242.95 149.45) (end 243.75 149.45) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EC7))
+  (segment (start 236.95 149.45) (end 237.75 149.45) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EBE))
+  (segment (start 230.95 149.45) (end 231.75 149.45) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EC4))
+  (segment (start 224.95 149.45) (end 225.75 149.45) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EC1))
+  (via (at 246.455 151.629) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 20) (tstamp 5D972E7C))
+  (segment (start 246.2772 151.4512) (end 245.947 151.4512) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EB2))
+  (segment (start 246.455 151.629) (end 246.2772 151.4512) (width 0.254) (layer F.Cu) (net 20) (tstamp 5D972EB5))
   (segment (start 211.395807 151.180844) (end 215.925356 151.180844) (width 0.254) (layer B.Cu) (net 20))
   (segment (start 209.826651 152.75) (end 211.395807 151.180844) (width 0.254) (layer B.Cu) (net 20))
   (segment (start 215.925356 151.180844) (end 217.805 149.3012) (width 0.254) (layer B.Cu) (net 20))
   (segment (start 207.85 152.75) (end 209.826651 152.75) (width 0.254) (layer B.Cu) (net 20))
-  (segment (start 202.3 153.3) (end 203.1 153.3) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D2DE70A))
-  (segment (start 196.3 153.3) (end 197.1 153.3) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D2DE70A))
-  (segment (start 214.3 153.3) (end 215.1 153.3) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D2DE70A))
-  (segment (start 208.3 153.3) (end 209.1 153.3) (width 0.254) (layer F.Cu) (net 21))
-  (via (at 207.7974 153.4668) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 21))
+  (segment (start 230.95 155.45) (end 231.75 155.45) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D972ED3))
+  (segment (start 224.95 155.45) (end 225.75 155.45) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D972EB8))
+  (segment (start 242.95 155.45) (end 243.75 155.45) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D972ECD))
+  (segment (start 236.95 155.45) (end 237.75 155.45) (width 0.254) (layer F.Cu) (net 21) (tstamp 5D972F1B))
+  (via (at 236.4474 155.6168) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 21) (tstamp 5D972E04))
   (segment (start 207.2414 153.4414) (end 207.7974 153.4414) (width 0.254) (layer B.Cu) (net 21))
   (segment (start 207.2 153.4) (end 207.2414 153.4414) (width 0.254) (layer B.Cu) (net 21))
-  (via (at 214.7 122.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CE0))
-  (via (at 214.7 124.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CE1))
-  (via (at 214.7 130.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF6))
-  (via (at 214.7 128.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF9))
-  (via (at 214.7 136.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF6))
-  (via (at 214.7 134.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF9))
-  (via (at 214.7 142.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF6))
-  (via (at 214.7 140.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF9))
-  (via (at 214.7 148.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF6))
-  (via (at 214.7 146.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF9))
+  (via (at 243.35 124.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E3D))
+  (via (at 243.35 126.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E0D))
+  (via (at 243.35 132.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E0A))
+  (via (at 243.35 130.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E9A))
+  (via (at 243.35 138.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E07))
+  (via (at 243.35 136.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E8B))
+  (via (at 243.35 144.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E37))
+  (via (at 243.35 142.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E9D))
+  (via (at 243.35 150.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E2E))
+  (via (at 243.35 148.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E67))
   (segment (start 214.7 122.5) (end 214.7 124.1) (width 0.2032) (layer B.Cu) (net 22))
   (segment (start 214.7 128.5) (end 214.7 130.1) (width 0.2032) (layer B.Cu) (net 22) (tstamp 5D286D2C))
   (segment (start 214.7 134.5) (end 214.7 136.1) (width 0.2032) (layer B.Cu) (net 22) (tstamp 5D286D2C))
   (segment (start 214.7 140.5) (end 214.7 142.1) (width 0.2032) (layer B.Cu) (net 22) (tstamp 5D286D2C))
   (segment (start 214.7 146.5) (end 214.7 148.1) (width 0.2032) (layer B.Cu) (net 22) (tstamp 5D286D2C))
-  (via (at 214.7 154.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF6))
-  (via (at 214.7 152.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D286CF9))
+  (via (at 243.35 156.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E58))
+  (via (at 243.35 154.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E64))
   (segment (start 214.7 152.5) (end 214.7 154.1) (width 0.2032) (layer B.Cu) (net 22) (tstamp 5D286D2C))
-  (via (at 212.902798 156.1338) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22))
+  (via (at 241.552798 158.2838) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 22) (tstamp 5D972E4F))
   (segment (start 212.8266 156.0576) (end 212.9028 156.1338) (width 0.254) (layer B.Cu) (net 22))
   (segment (start 207.4672 156.0576) (end 212.8266 156.0576) (width 0.254) (layer B.Cu) (net 22))
   (segment (start 205.7 153.4) (end 205.7 154.2904) (width 0.254) (layer B.Cu) (net 22))
   (segment (start 205.7 154.2904) (end 207.4672 156.0576) (width 0.254) (layer B.Cu) (net 22))
-  (segment (start 214.7 124.1) (end 214.7 128.5) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 214.7 130.1) (end 214.7 134.5) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 214.7 136.1) (end 214.7 140.5) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 214.7 142.1) (end 214.7 146.5) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 214.7 148.1) (end 214.7 152.5) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 212.902798 155.897202) (end 212.902798 156.1338) (width 0.2032) (layer F.Cu) (net 22))
-  (segment (start 214.7 154.1) (end 212.902798 155.897202) (width 0.2032) (layer F.Cu) (net 22))
-  (via (at 208.7 122.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CE0))
-  (via (at 208.7 124.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CE1))
-  (via (at 208.7 128.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CF8))
-  (via (at 208.7 130.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CFB))
-  (via (at 208.7 134.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CF8))
-  (via (at 208.7 136.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CFB))
-  (via (at 208.7 140.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CF8))
-  (via (at 208.7 142.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D286CFB))
+  (segment (start 243.35 126.25) (end 243.35 130.65) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F0F))
+  (segment (start 243.35 132.25) (end 243.35 136.65) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F09))
+  (segment (start 243.35 138.25) (end 243.35 142.65) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F1E))
+  (segment (start 243.35 144.25) (end 243.35 148.65) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F12))
+  (segment (start 243.35 150.25) (end 243.35 154.65) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F18))
+  (segment (start 241.552798 158.047202) (end 241.552798 158.2838) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F15))
+  (segment (start 243.35 156.25) (end 241.552798 158.047202) (width 0.2032) (layer F.Cu) (net 22) (tstamp 5D972F21))
+  (via (at 237.35 124.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E01))
+  (via (at 237.35 126.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E13))
+  (via (at 237.35 130.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E85))
+  (via (at 237.35 132.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E61))
+  (via (at 237.35 136.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E46))
+  (via (at 237.35 138.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E28))
+  (via (at 237.35 142.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E97))
+  (via (at 237.35 144.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972EA3))
   (segment (start 208.7 122.5) (end 208.7 124.1) (width 0.2032) (layer B.Cu) (net 23))
   (segment (start 208.7 128.5) (end 208.7 130.1) (width 0.2032) (layer B.Cu) (net 23) (tstamp 5D286D2B))
   (segment (start 208.7 134.5) (end 208.7 136.1) (width 0.2032) (layer B.Cu) (net 23) (tstamp 5D286D2B))
   (segment (start 208.7 140.5) (end 208.7 142.1) (width 0.2032) (layer B.Cu) (net 23) (tstamp 5D286D2B))
-  (via (at 206.502 156.21) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23))
+  (via (at 235.152 158.36) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E5B))
   (segment (start 205.2 153.4) (end 205.2 154.908) (width 0.254) (layer B.Cu) (net 23))
   (segment (start 205.2 154.908) (end 206.502 156.21) (width 0.254) (layer B.Cu) (net 23))
-  (via (at 208.7118 148.005801) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23))
+  (via (at 237.3618 150.155801) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E2B))
   (segment (start 205.2 152.6352) (end 206.957559 150.877641) (width 0.254) (layer B.Cu) (net 23))
   (segment (start 206.957559 150.877641) (end 206.966599 150.877641) (width 0.254) (layer B.Cu) (net 23))
   (segment (start 205.2 153.4) (end 205.2 152.6352) (width 0.254) (layer B.Cu) (net 23))
-  (via (at 206.966599 150.877641) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23))
-  (via (at 208.704687 146.497502) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23))
+  (via (at 235.616599 153.027641) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E8E))
+  (via (at 237.354687 148.647502) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 23) (tstamp 5D972E25))
   (segment (start 208.7118 146.504615) (end 208.704687 146.497502) (width 0.2032) (layer B.Cu) (net 23))
   (segment (start 208.7118 148.005801) (end 208.7118 146.504615) (width 0.2032) (layer B.Cu) (net 23))
-  (via (at 202.7 122.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CE0))
-  (via (at 202.7 124.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CE1))
-  (via (at 202.7 130.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CF4))
-  (via (at 202.7 128.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CFA))
-  (via (at 202.7 136.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CF4))
-  (via (at 202.7 134.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CFA))
-  (via (at 202.7 142.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CF4))
-  (via (at 202.7 140.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CFA))
-  (via (at 202.7 148.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CF4))
-  (via (at 202.7 146.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CFA))
-  (via (at 202.7 154.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D286CF4))
+  (via (at 231.35 124.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E82))
+  (via (at 231.35 126.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972DFE))
+  (via (at 231.35 132.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E3A))
+  (via (at 231.35 130.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E91))
+  (via (at 231.35 138.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E1F))
+  (via (at 231.35 136.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E49))
+  (via (at 231.35 144.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E55))
+  (via (at 231.35 142.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972EA0))
+  (via (at 231.35 150.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E52))
+  (via (at 231.35 148.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E88))
+  (via (at 231.35 156.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E22))
   (segment (start 202.7 122.5) (end 202.7 124.1) (width 0.2032) (layer B.Cu) (net 24))
   (segment (start 202.7 128.5) (end 202.7 130.1) (width 0.2032) (layer B.Cu) (net 24) (tstamp 5D286D2E))
   (segment (start 202.7 134.5) (end 202.7 136.1) (width 0.2032) (layer B.Cu) (net 24) (tstamp 5D286D2E))
   (segment (start 202.7 140.5) (end 202.7 142.1) (width 0.2032) (layer B.Cu) (net 24) (tstamp 5D286D2E))
   (segment (start 202.7 146.5) (end 202.7 148.1) (width 0.2032) (layer B.Cu) (net 24) (tstamp 5D286D2E))
-  (via (at 202.6412 152.501596) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24))
+  (via (at 231.2912 154.651596) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E40))
   (segment (start 202.7 152.560396) (end 202.6412 152.501596) (width 0.2032) (layer B.Cu) (net 24))
   (segment (start 202.7 154.1) (end 202.7 152.560396) (width 0.2032) (layer B.Cu) (net 24))
-  (via (at 204.47 155.7528) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24))
+  (via (at 233.12 157.9028) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 24) (tstamp 5D972E1C))
   (segment (start 204.7 153.4) (end 204.7 155.5228) (width 0.254) (layer B.Cu) (net 24))
   (segment (start 204.7 155.5228) (end 204.47 155.7528) (width 0.254) (layer B.Cu) (net 24))
-  (via (at 196.7 122.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25))
-  (via (at 196.7 124.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CDA))
-  (via (at 196.7 128.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF5))
-  (via (at 196.7 130.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF7))
-  (via (at 196.7 134.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF5))
-  (via (at 196.7 136.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF7))
-  (via (at 196.7 140.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF5))
-  (via (at 196.7 142.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF7))
-  (via (at 196.7 146.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF5))
-  (via (at 196.7 148.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF7))
-  (via (at 196.7 152.5) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF5))
-  (via (at 196.7 154.1) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D286CF7))
+  (via (at 225.35 124.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E34))
+  (via (at 225.35 126.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E94))
+  (via (at 225.35 130.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E19))
+  (via (at 225.35 132.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E16))
+  (via (at 225.35 136.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E6D))
+  (via (at 225.35 138.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E7F))
+  (via (at 225.35 142.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E10))
+  (via (at 225.35 144.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E79))
+  (via (at 225.35 148.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E76))
+  (via (at 225.35 150.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E73))
+  (via (at 225.35 154.65) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E31))
+  (via (at 225.35 156.25) (size 0.7112) (drill 0.381) (layers F.Cu B.Cu) (net 25) (tstamp 5D972E70))
   (segment (start 196.7 122.5) (end 196.7 124.1) (width 0.2032) (layer B.Cu) (net 25))
   (segment (start 196.7 128.5) (end 196.7 130.1) (width 0.2032) (layer B.Cu) (net 25) (tstamp 5D286D2D))
   (segment (start 196.7 134.5) (end 196.7 136.1) (width 0.2032) (layer B.Cu) (net 25) (tstamp 5D286D2D))
@@ -1233,7 +1235,7 @@
   (segment (start 196.7 146.5) (end 196.7 148.1) (width 0.2032) (layer B.Cu) (net 25) (tstamp 5D286D2D))
   (segment (start 196.7 152.5) (end 196.7 154.1) (width 0.2032) (layer B.Cu) (net 25) (tstamp 5D286D2D))
   (segment (start 199.263 157.4038) (end 201.1934 157.4038) (width 0.254) (layer F.Cu) (net 25))
-  (segment (start 198.4248 155.829) (end 198.4248 156.5656) (width 0.254) (layer F.Cu) (net 25))
+  (segment (start 227.0748 157.979) (end 227.0748 158.7156) (width 0.254) (layer F.Cu) (net 25) (tstamp 5D972F0C))
   (segment (start 198.4248 156.5656) (end 199.263 157.4038) (width 0.254) (layer F.Cu) (net 25))
   (segment (start 201.1934 157.4038) (end 201.895264 156.701936) (width 0.254) (layer F.Cu) (net 25))
   (segment (start 201.895264 156.701936) (end 201.6252 156.972) (width 0.254) (layer F.Cu) (net 25))
@@ -1248,849 +1250,553 @@
   (segment (start 201.168 153.0858) (end 201.1934 153.0604) (width 0.254) (layer B.Cu) (net 33))
   (segment (start 201.1934 153.0604) (end 201.1934 150.7236) (width 0.254) (layer B.Cu) (net 33))
 
-  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D568A23) (hatch edge 0.508)
+  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D972DC8) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 120.5) (xy 202.5 123.3) (xy 199.7 126.1) (xy 196.9 123.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.287868 123.3) (xy 199.7 125.887868) (xy 197.112132 123.3) (xy 199.7 120.712132)
+        (xy 228.35 122.65) (xy 231.15 125.45) (xy 228.35 128.25) (xy 225.55 125.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568A20) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972DFB) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 196.7 129.5) (xy 199.5 132.3) (xy 196.7 135.1) (xy 193.9 132.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 199.287868 132.3) (xy 196.818868 134.769) (xy 196.581132 134.769) (xy 194.112132 132.3) (xy 196.581132 129.831)
-        (xy 196.818868 129.831)
+        (xy 225.35 131.65) (xy 228.15 134.45) (xy 225.35 137.25) (xy 222.55 134.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568A1D) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972DD4) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 196.7 135.5) (xy 199.5 138.3) (xy 196.7 141.1) (xy 193.9 138.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 199.287868 138.3) (xy 196.818868 140.769) (xy 196.581132 140.769) (xy 194.112132 138.3) (xy 196.581132 135.831)
-        (xy 196.818868 135.831)
+        (xy 225.35 137.65) (xy 228.15 140.45) (xy 225.35 143.25) (xy 222.55 140.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568A1A) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972DBC) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 194.1 156.1) (xy 199.3 156.1) (xy 196.7 153.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 198.937868 155.95) (xy 194.462132 155.95) (xy 196.581132 153.831) (xy 196.818868 153.831)
+        (xy 222.75 158.25) (xy 227.95 158.25) (xy 225.35 155.65)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568A17) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972DC2) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 196.7 123.5) (xy 199.5 126.3) (xy 196.7 129.1) (xy 193.9 126.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 199.287868 126.3) (xy 196.818868 128.769) (xy 196.581132 128.769) (xy 194.112132 126.3) (xy 196.581132 123.831)
-        (xy 196.818868 123.831)
+        (xy 225.35 125.65) (xy 228.15 128.45) (xy 225.35 131.25) (xy 222.55 128.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568A14) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972DF8) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 196.7 147.5) (xy 199.5 150.3) (xy 196.7 153.1) (xy 193.9 150.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 199.287868 150.3) (xy 196.818868 152.769) (xy 196.581132 152.769) (xy 194.112132 150.3) (xy 196.581132 147.831)
-        (xy 196.818868 147.831)
+        (xy 225.35 149.65) (xy 228.15 152.45) (xy 225.35 155.25) (xy 222.55 152.45)
       )
     )
   )
-  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D568A11) (hatch edge 0.508)
+  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D972DDD) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 144.5) (xy 202.5 147.3) (xy 199.7 150.1) (xy 196.9 147.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.287868 147.3) (xy 199.7 149.887868) (xy 197.112132 147.3) (xy 199.7 144.712132)
+        (xy 228.35 146.65) (xy 231.15 149.45) (xy 228.35 152.25) (xy 225.55 149.45)
       )
     )
   )
-  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D568A0B) (hatch edge 0.508)
+  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D972DE6) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 138.5) (xy 202.5 141.3) (xy 199.7 144.1) (xy 196.9 141.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.287868 141.3) (xy 199.7 143.887868) (xy 197.112132 141.3) (xy 199.7 138.712132)
+        (xy 228.35 140.65) (xy 231.15 143.45) (xy 228.35 146.25) (xy 225.55 143.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D568A08) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972DBF) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 202.7 129.5) (xy 205.5 132.3) (xy 202.7 135.1) (xy 199.9 132.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 205.287868 132.3) (xy 202.818868 134.769) (xy 202.581132 134.769) (xy 200.112132 132.3) (xy 202.581132 129.831)
-        (xy 202.818868 129.831)
+        (xy 231.35 131.65) (xy 234.15 134.45) (xy 231.35 137.25) (xy 228.55 134.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D568A05) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972DE0) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 202.7 123.5) (xy 205.5 126.3) (xy 202.7 129.1) (xy 199.9 126.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 205.287868 126.3) (xy 202.818868 128.769) (xy 202.581132 128.769) (xy 200.112132 126.3) (xy 202.581132 123.831)
-        (xy 202.818868 123.831)
+        (xy 231.35 125.65) (xy 234.15 128.45) (xy 231.35 131.25) (xy 228.55 128.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D568A02) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972DE9) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 202.7 141.5) (xy 205.5 144.3) (xy 202.7 147.1) (xy 199.9 144.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 205.287868 144.3) (xy 202.818868 146.769) (xy 202.581132 146.769) (xy 200.112132 144.3) (xy 202.581132 141.831)
-        (xy 202.818868 141.831)
+        (xy 231.35 143.65) (xy 234.15 146.45) (xy 231.35 149.25) (xy 228.55 146.45)
       )
     )
   )
-  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D5689FF) (hatch edge 0.508)
+  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D972DF2) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 132.5) (xy 202.5 135.3) (xy 199.7 138.1) (xy 196.9 135.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.287868 135.3) (xy 199.7 137.887868) (xy 197.112132 135.3) (xy 199.7 132.712132)
+        (xy 228.35 134.65) (xy 231.15 137.45) (xy 228.35 140.25) (xy 225.55 137.45)
       )
     )
   )
-  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D5689FC) (hatch edge 0.508)
+  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D972DE3) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 126.5) (xy 202.5 129.3) (xy 199.7 132.1) (xy 196.9 129.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.287868 129.3) (xy 199.7 131.887868) (xy 197.112132 129.3) (xy 199.7 126.712132)
+        (xy 228.35 128.65) (xy 231.15 131.45) (xy 228.35 134.25) (xy 225.55 131.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D5689F9) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972DF5) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 202.7 135.5) (xy 205.5 138.3) (xy 202.7 141.1) (xy 199.9 138.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 205.287868 138.3) (xy 202.818868 140.769) (xy 202.581132 140.769) (xy 200.112132 138.3) (xy 202.581132 135.831)
-        (xy 202.818868 135.831)
+        (xy 231.35 137.65) (xy 234.15 140.45) (xy 231.35 143.25) (xy 228.55 140.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D5689F6) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972DC5) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 202.7 147.5) (xy 205.5 150.3) (xy 202.7 153.1) (xy 199.9 150.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 205.287868 150.3) (xy 202.818868 152.769) (xy 202.581132 152.769) (xy 200.112132 150.3) (xy 202.581132 147.831)
-        (xy 202.818868 147.831)
+        (xy 231.35 149.65) (xy 234.15 152.45) (xy 231.35 155.25) (xy 228.55 152.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689F3) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972DD1) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 214.7 123.5) (xy 217.5 126.3) (xy 214.7 129.1) (xy 211.9 126.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.287868 126.3) (xy 214.818868 128.769) (xy 214.581132 128.769) (xy 212.112132 126.3) (xy 214.581132 123.831)
-        (xy 214.818868 123.831)
+        (xy 243.35 125.65) (xy 246.15 128.45) (xy 243.35 131.25) (xy 240.55 128.45)
       )
     )
   )
-  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D5689F0) (hatch edge 0.508)
+  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D972DDA) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 120.5) (xy 214.5 123.3) (xy 211.7 126.1) (xy 208.9 123.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 123.3) (xy 211.7 125.887868) (xy 209.112132 123.3) (xy 211.7 120.712132)
+        (xy 240.35 122.65) (xy 243.15 125.45) (xy 240.35 128.25) (xy 237.55 125.45)
       )
     )
   )
-  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D5689ED) (hatch edge 0.508)
+  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D972DCE) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 120.5) (xy 208.5 123.3) (xy 205.7 126.1) (xy 202.9 123.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 123.3) (xy 205.7 125.887868) (xy 203.112132 123.3) (xy 205.7 120.712132)
+        (xy 234.35 122.65) (xy 237.15 125.45) (xy 234.35 128.25) (xy 231.55 125.45)
       )
     )
   )
-  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D5689EA) (hatch edge 0.508)
+  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D972DCB) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 132.5) (xy 208.5 135.3) (xy 205.7 138.1) (xy 202.9 135.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 135.3) (xy 205.7 137.887868) (xy 203.112132 135.3) (xy 205.7 132.712132)
+        (xy 234.35 134.65) (xy 237.15 137.45) (xy 234.35 140.25) (xy 231.55 137.45)
       )
     )
   )
-  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D5689E7) (hatch edge 0.508)
+  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D972DB9) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 150.5) (xy 208.5 153.3) (xy 205.7 156.1) (xy 202.9 153.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 153.3) (xy 205.7 155.887868) (xy 203.112132 153.3) (xy 205.7 150.712132)
+        (xy 234.35 152.65) (xy 237.15 155.45) (xy 234.35 158.25) (xy 231.55 155.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689E4) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972DEF) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 214.7 129.5) (xy 217.5 132.3) (xy 214.7 135.1) (xy 211.9 132.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.287868 132.3) (xy 214.818868 134.769) (xy 214.581132 134.769) (xy 212.112132 132.3) (xy 214.581132 129.831)
-        (xy 214.818868 129.831)
+        (xy 243.35 131.65) (xy 246.15 134.45) (xy 243.35 137.25) (xy 240.55 134.45)
       )
     )
   )
-  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D5689E1) (hatch edge 0.508)
+  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D972DEC) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 150.5) (xy 214.5 153.3) (xy 211.7 156.1) (xy 208.9 153.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 153.3) (xy 211.7 155.887868) (xy 209.112132 153.3) (xy 211.7 150.712132)
+        (xy 240.35 152.65) (xy 243.15 155.45) (xy 240.35 158.25) (xy 237.55 155.45)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689DE) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972D98) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 208.7 129.5) (xy 211.5 132.3) (xy 208.7 135.1) (xy 205.9 132.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 211.287868 132.3) (xy 208.818868 134.769) (xy 208.581132 134.769) (xy 206.112132 132.3) (xy 208.581132 129.831)
-        (xy 208.818868 129.831)
+        (xy 237.35 131.65) (xy 240.15 134.45) (xy 237.35 137.25) (xy 234.55 134.45)
       )
     )
   )
-  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D5689DB) (hatch edge 0.508)
+  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D972DAD) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 126.5) (xy 208.5 129.3) (xy 205.7 132.1) (xy 202.9 129.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 129.3) (xy 205.7 131.887868) (xy 203.112132 129.3) (xy 205.7 126.712132)
+        (xy 234.35 128.65) (xy 237.15 131.45) (xy 234.35 134.25) (xy 231.55 131.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689D8) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972D80) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 214.7 141.5) (xy 217.5 144.3) (xy 214.7 147.1) (xy 211.9 144.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.287868 144.3) (xy 214.818868 146.769) (xy 214.581132 146.769) (xy 212.112132 144.3) (xy 214.581132 141.831)
-        (xy 214.818868 141.831)
+        (xy 243.35 143.65) (xy 246.15 146.45) (xy 243.35 149.25) (xy 240.55 146.45)
       )
     )
   )
-  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D5689D5) (hatch edge 0.508)
+  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D972D7D) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 138.5) (xy 214.5 141.3) (xy 211.7 144.1) (xy 208.9 141.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 141.3) (xy 211.7 143.887868) (xy 209.112132 141.3) (xy 211.7 138.712132)
+        (xy 240.35 140.65) (xy 243.15 143.45) (xy 240.35 146.25) (xy 237.55 143.45)
       )
     )
   )
-  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D5689D2) (hatch edge 0.508)
+  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D972D83) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 144.5) (xy 208.5 147.3) (xy 205.7 150.1) (xy 202.9 147.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 147.3) (xy 205.7 149.887868) (xy 203.112132 147.3) (xy 205.7 144.712132)
+        (xy 234.35 146.65) (xy 237.15 149.45) (xy 234.35 152.25) (xy 231.55 149.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689CF) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972D89) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 214.7 135.5) (xy 217.5 138.3) (xy 214.7 141.1) (xy 211.9 138.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.287868 138.3) (xy 214.818868 140.769) (xy 214.581132 140.769) (xy 212.112132 138.3) (xy 214.581132 135.831)
-        (xy 214.818868 135.831)
+        (xy 243.35 137.65) (xy 246.15 140.45) (xy 243.35 143.25) (xy 240.55 140.45)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689CC) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972D74) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 208.7 147.5) (xy 211.5 150.3) (xy 208.7 153.1) (xy 205.9 150.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 211.287868 150.3) (xy 208.818868 152.769) (xy 208.581132 152.769) (xy 206.112132 150.3) (xy 208.581132 147.831)
-        (xy 208.818868 147.831)
+        (xy 237.35 149.65) (xy 240.15 152.45) (xy 237.35 155.25) (xy 234.55 152.45)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689C9) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972D86) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 208.7 141.5) (xy 211.5 144.3) (xy 208.7 147.1) (xy 205.9 144.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 211.287868 144.3) (xy 208.818868 146.769) (xy 208.581132 146.769) (xy 206.112132 144.3) (xy 208.581132 141.831)
-        (xy 208.818868 141.831)
+        (xy 237.35 143.65) (xy 240.15 146.45) (xy 237.35 149.25) (xy 234.55 146.45)
       )
     )
   )
-  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D5689C6) (hatch edge 0.508)
+  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D972D95) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 132.5) (xy 214.5 135.3) (xy 211.7 138.1) (xy 208.9 135.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 135.3) (xy 211.7 137.887868) (xy 209.112132 135.3) (xy 211.7 132.712132)
+        (xy 240.35 134.65) (xy 243.15 137.45) (xy 240.35 140.25) (xy 237.55 137.45)
       )
     )
   )
-  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D5689C3) (hatch edge 0.508)
+  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D972DB6) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 126.5) (xy 214.5 129.3) (xy 211.7 132.1) (xy 208.9 129.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 129.3) (xy 211.7 131.887868) (xy 209.112132 129.3) (xy 211.7 126.712132)
+        (xy 240.35 128.65) (xy 243.15 131.45) (xy 240.35 134.25) (xy 237.55 131.45)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689C0) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972DB3) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 208.7 123.5) (xy 211.5 126.3) (xy 208.7 129.1) (xy 205.9 126.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 211.287868 126.3) (xy 208.818868 128.769) (xy 208.581132 128.769) (xy 206.112132 126.3) (xy 208.581132 123.831)
-        (xy 208.818868 123.831)
+        (xy 237.35 125.65) (xy 240.15 128.45) (xy 237.35 131.25) (xy 234.55 128.45)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689BD) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972DAA) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 208.7 135.5) (xy 211.5 138.3) (xy 208.7 141.1) (xy 205.9 138.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 211.287868 138.3) (xy 208.818868 140.769) (xy 208.581132 140.769) (xy 206.112132 138.3) (xy 208.581132 135.831)
-        (xy 208.818868 135.831)
+        (xy 237.35 137.65) (xy 240.15 140.45) (xy 237.35 143.25) (xy 234.55 140.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689BA) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972DB0) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 214.7 147.5) (xy 217.5 150.3) (xy 214.7 153.1) (xy 211.9 150.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.287868 150.3) (xy 214.818868 152.769) (xy 214.581132 152.769) (xy 212.112132 150.3) (xy 214.581132 147.831)
-        (xy 214.818868 147.831)
+        (xy 243.35 149.65) (xy 246.15 152.45) (xy 243.35 155.25) (xy 240.55 152.45)
       )
     )
   )
-  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D5689B7) (hatch edge 0.508)
+  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D972D77) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.7 138.5) (xy 208.5 141.3) (xy 205.7 144.1) (xy 202.9 141.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.287868 141.3) (xy 205.7 143.887868) (xy 203.112132 141.3) (xy 205.7 138.712132)
+        (xy 234.35 140.65) (xy 237.15 143.45) (xy 234.35 146.25) (xy 231.55 143.45)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D5689B4) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972D9E) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 200.1 156.1) (xy 205.3 156.1) (xy 202.7 153.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 204.937868 155.95) (xy 204.268236 155.95) (xy 204.239879 155.921643) (xy 203.960694 155.806) (xy 203.658506 155.806)
-        (xy 203.379321 155.921643) (xy 203.350964 155.95) (xy 201.430006 155.95) (xy 201.318693 155.838687) (xy 200.988629 155.70197)
-        (xy 200.710162 155.70197) (xy 202.581132 153.831) (xy 202.818868 153.831)
+        (xy 228.75 158.25) (xy 233.95 158.25) (xy 231.35 155.65)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D5689B1) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972D92) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 206.1 156.1) (xy 211.3 156.1) (xy 208.7 153.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 210.937868 155.95) (xy 206.462132 155.95) (xy 208.581132 153.831) (xy 208.818868 153.831)
+        (xy 234.75 158.25) (xy 239.95 158.25) (xy 237.35 155.65)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D5689AE) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972D7A) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 212.1 156.1) (xy 217.3 156.1) (xy 214.7 153.5)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 216.937868 155.95) (xy 212.462132 155.95) (xy 214.581132 153.831) (xy 214.818868 153.831)
+        (xy 240.75 158.25) (xy 245.95 158.25) (xy 243.35 155.65)
       )
     )
   )
-  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D5689AB) (hatch edge 0.508)
+  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D972D9B) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 155.9) (xy 217.5 150.7) (xy 214.9 153.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 155.537868) (xy 215.112132 153.3) (xy 217.35 151.062132)
+        (xy 246.15 158.05) (xy 246.15 152.85) (xy 243.55 155.45)
       )
     )
   )
-  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D5689A8) (hatch edge 0.508)
+  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D972D71) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 149.9) (xy 217.5 144.7) (xy 214.9 147.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 149.537868) (xy 215.112132 147.3) (xy 217.35 145.062132)
+        (xy 246.15 152.05) (xy 246.15 146.85) (xy 243.55 149.45)
       )
     )
   )
-  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D5689A5) (hatch edge 0.508)
+  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D972D6E) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 143.9) (xy 217.5 138.7) (xy 214.9 141.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 143.537868) (xy 215.112132 141.3) (xy 217.35 139.062132)
+        (xy 246.15 146.05) (xy 246.15 140.85) (xy 243.55 143.45)
       )
     )
   )
-  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D5689A2) (hatch edge 0.508)
+  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D972DA7) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 137.9) (xy 217.5 132.7) (xy 214.9 135.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 137.537868) (xy 215.112132 135.3) (xy 217.35 133.062132)
+        (xy 246.15 140.05) (xy 246.15 134.85) (xy 243.55 137.45)
       )
     )
   )
-  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D56899F) (hatch edge 0.508)
+  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D972DA4) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 131.9) (xy 217.5 126.7) (xy 214.9 129.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 131.537868) (xy 215.112132 129.3) (xy 217.35 127.062132)
+        (xy 246.15 134.05) (xy 246.15 128.85) (xy 243.55 131.45)
       )
     )
   )
-  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D56899C) (hatch edge 0.508)
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972D8F) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.3 120.5) (xy 212.1 120.5) (xy 214.7 123.1)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.818868 122.769) (xy 214.581132 122.769) (xy 212.462132 120.65) (xy 216.937868 120.65)
+        (xy 245.95 122.65) (xy 240.75 122.65) (xy 243.35 125.25)
       )
     )
   )
-  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D568999) (hatch edge 0.508)
+  (zone (net 23) (net_name /TX1) (layer F.Cu) (tstamp 5D972DA1) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.3 120.5) (xy 206.1 120.5) (xy 208.7 123.1)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.818868 122.769) (xy 208.581132 122.769) (xy 206.462132 120.65) (xy 210.937868 120.65)
+        (xy 239.95 122.65) (xy 234.75 122.65) (xy 237.35 125.25)
       )
     )
   )
-  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D568996) (hatch edge 0.508)
+  (zone (net 24) (net_name /TX2) (layer F.Cu) (tstamp 5D972D8C) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 205.3 120.5) (xy 200.1 120.5) (xy 202.7 123.1)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 202.818868 122.769) (xy 202.581132 122.769) (xy 200.462132 120.65) (xy 204.937868 120.65)
+        (xy 233.95 122.65) (xy 228.75 122.65) (xy 231.35 125.25)
       )
     )
   )
-  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D568993) (hatch edge 0.508)
+  (zone (net 17) (net_name /RX1) (layer F.Cu) (tstamp 5D972D50) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 126.7) (xy 193.9 131.9) (xy 196.5 129.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 129.3) (xy 194.05 131.537868) (xy 194.05 127.062132)
+        (xy 222.55 128.85) (xy 222.55 134.05) (xy 225.15 131.45)
       )
     )
   )
-  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D568990) (hatch edge 0.508)
+  (zone (net 18) (net_name /RX2) (layer F.Cu) (tstamp 5D972D59) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 132.7) (xy 193.9 137.9) (xy 196.5 135.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 135.3) (xy 194.05 137.537868) (xy 194.05 133.062132)
+        (xy 222.55 134.85) (xy 222.55 140.05) (xy 225.15 137.45)
       )
     )
   )
-  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D56898D) (hatch edge 0.508)
+  (zone (net 19) (net_name /RX3) (layer F.Cu) (tstamp 5D972D5C) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 138.7) (xy 193.9 143.9) (xy 196.5 141.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 141.3) (xy 194.05 143.537868) (xy 194.05 139.062132)
+        (xy 222.55 140.85) (xy 222.55 146.05) (xy 225.15 143.45)
       )
     )
   )
-  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D56898A) (hatch edge 0.508)
+  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D972D62) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 144.7) (xy 193.9 149.9) (xy 196.5 147.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 147.3) (xy 194.05 149.537868) (xy 194.05 145.062132)
+        (xy 222.55 146.85) (xy 222.55 152.05) (xy 225.15 149.45)
       )
     )
   )
-  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D568987) (hatch edge 0.508)
+  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D972D56) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 150.7) (xy 193.9 155.9) (xy 196.5 153.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 153.3) (xy 194.05 155.537868) (xy 194.05 151.062132)
+        (xy 222.55 152.85) (xy 222.55 158.05) (xy 225.15 155.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568984) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972D5F) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.3 120.5) (xy 194.1 120.5) (xy 196.7 123.1)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.818868 122.769) (xy 196.581132 122.769) (xy 194.462132 120.65) (xy 198.937868 120.65)
+        (xy 227.95 122.65) (xy 222.75 122.65) (xy 225.35 125.25)
       )
     )
   )
-  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D568981) (hatch edge 0.508)
+  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D972D65) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 193.9 120.7) (xy 193.9 125.9) (xy 196.5 123.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 196.287868 123.3) (xy 194.05 125.537868) (xy 194.05 121.062132)
+        (xy 222.55 122.85) (xy 222.55 128.05) (xy 225.15 125.45)
       )
     )
   )
-  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D56897E) (hatch edge 0.508)
+  (zone (net 16) (net_name /RX0) (layer F.Cu) (tstamp 5D972D53) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 217.5 125.9) (xy 217.5 120.7) (xy 214.9 123.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 217.35 125.537868) (xy 215.112132 123.3) (xy 217.35 121.062132)
+        (xy 246.15 128.05) (xy 246.15 122.85) (xy 243.55 125.45)
       )
     )
   )
@@ -2107,8 +1813,8 @@
     (filled_polygon
       (pts
         (xy 201.158733 145.291267) (xy 201.292367 145.380559) (xy 201.390652 145.400109) (xy 201.437549 145.470296) (xy 201.437551 145.470298)
-        (xy 201.467172 145.514629) (xy 201.511503 145.54425) (xy 202.050458 146.083205) (xy 201.9404 146.348906) (xy 201.9404 146.651094)
-        (xy 202.056043 146.930279) (xy 202.1944 147.068636) (xy 202.194401 147.477117) (xy 202.05115 147.131279) (xy 201.768721 146.84885)
+        (xy 201.467172 145.514629) (xy 201.511503 145.54425) (xy 202.10175 146.134498) (xy 202.131371 146.178829) (xy 202.252459 146.259737)
+        (xy 202.223735 146.302726) (xy 202.1944 146.450205) (xy 202.194401 147.477117) (xy 202.05115 147.131279) (xy 201.768721 146.84885)
         (xy 201.399708 146.696) (xy 201.000292 146.696) (xy 200.631279 146.84885) (xy 200.34885 147.131279) (xy 200.196 147.500292)
         (xy 200.196 147.899708) (xy 200.34885 148.268721) (xy 200.631279 148.55115) (xy 201.000292 148.704) (xy 201.399708 148.704)
         (xy 201.437429 148.688376) (xy 201.968053 149.219) (xy 201.238871 149.219) (xy 200.968721 148.94885) (xy 200.599708 148.796)
@@ -2116,10 +1822,9 @@
         (xy 199.54885 150.368721) (xy 199.831279 150.65115) (xy 200.200292 150.804) (xy 200.599708 150.804) (xy 200.662401 150.778032)
         (xy 200.6624 152.235959) (xy 200.631279 152.24885) (xy 200.34885 152.531279) (xy 200.196 152.900292) (xy 200.196 153.299708)
         (xy 200.34885 153.668721) (xy 200.631279 153.95115) (xy 201.000292 154.104) (xy 201.399708 154.104) (xy 201.768721 153.95115)
-        (xy 202.05115 153.668721) (xy 202.194401 153.322883) (xy 202.1944 153.531364) (xy 202.056043 153.669721) (xy 201.9404 153.948906)
-        (xy 201.9404 154.251094) (xy 202.056043 154.530279) (xy 202.269721 154.743957) (xy 202.548906 154.8596) (xy 202.851094 154.8596)
-        (xy 203.130279 154.743957) (xy 203.343957 154.530279) (xy 203.4596 154.251094) (xy 203.4596 153.948906) (xy 203.343957 153.669721)
-        (xy 203.2056 153.531364) (xy 203.2056 153.311914) (xy 203.638086 153.311914) (xy 203.638086 153.75) (xy 203.669 153.905418)
+        (xy 202.05115 153.668721) (xy 202.194401 153.322883) (xy 202.1944 154.149795) (xy 202.223735 154.297274) (xy 202.335483 154.464517)
+        (xy 202.502725 154.576265) (xy 202.7 154.615505) (xy 202.897274 154.576265) (xy 203.064517 154.464517) (xy 203.176265 154.297275)
+        (xy 203.2056 154.149796) (xy 203.2056 153.311914) (xy 203.638086 153.311914) (xy 203.638086 153.75) (xy 203.669 153.905418)
         (xy 203.669001 154.405852) (xy 203.471105 154.603748) (xy 203.426771 154.633371) (xy 203.30941 154.809015) (xy 203.2786 154.963907)
         (xy 203.2786 154.96391) (xy 203.268199 155.0162) (xy 203.2786 155.068491) (xy 203.278601 155.95) (xy 201.430006 155.95)
         (xy 201.318693 155.838687) (xy 200.988629 155.70197) (xy 200.631371 155.70197) (xy 200.33643 155.824139) (xy 200.33643 155.80658)
@@ -2129,65 +1834,62 @@
     )
     (filled_polygon
       (pts
-        (xy 217.35 124.838964) (xy 217.168643 125.020321) (xy 217.053 125.299506) (xy 217.053 125.601694) (xy 217.168643 125.880879)
-        (xy 217.274 125.986236) (xy 217.274001 130.285251) (xy 216.806105 130.753148) (xy 216.761771 130.782771) (xy 216.64441 130.958415)
-        (xy 216.6136 131.113307) (xy 216.6136 131.11331) (xy 216.603199 131.1656) (xy 216.6136 131.21789) (xy 216.613601 136.305052)
-        (xy 216.348905 136.569748) (xy 216.304571 136.599371) (xy 216.18721 136.775015) (xy 216.1564 136.929907) (xy 216.1564 136.92991)
-        (xy 216.145999 136.9822) (xy 216.1564 137.03449) (xy 216.156401 141.857502) (xy 216.1564 141.857507) (xy 216.1564 142.197853)
-        (xy 215.942505 142.411748) (xy 215.898171 142.441371) (xy 215.78081 142.617015) (xy 215.75 142.771907) (xy 215.75 142.77191)
-        (xy 215.739599 142.8242) (xy 215.75 142.87649) (xy 215.750001 148.014451) (xy 215.421587 148.342866) (xy 215.4596 148.251094)
-        (xy 215.4596 147.948906) (xy 215.343957 147.669721) (xy 215.2056 147.531364) (xy 215.2056 147.068636) (xy 215.343957 146.930279)
-        (xy 215.4596 146.651094) (xy 215.4596 146.348906) (xy 215.343957 146.069721) (xy 215.130279 145.856043) (xy 214.851094 145.7404)
-        (xy 214.548906 145.7404) (xy 214.269721 145.856043) (xy 214.056043 146.069721) (xy 213.9404 146.348906) (xy 213.9404 146.651094)
-        (xy 214.056043 146.930279) (xy 214.1944 147.068636) (xy 214.194401 147.531363) (xy 214.056043 147.669721) (xy 213.9404 147.948906)
-        (xy 213.9404 148.251094) (xy 214.056043 148.530279) (xy 214.269721 148.743957) (xy 214.548906 148.8596) (xy 214.851094 148.8596)
-        (xy 214.942866 148.821586) (xy 214.841853 148.9226) (xy 213.411675 148.9226) (xy 213.504 148.699708) (xy 213.504 148.300292)
-        (xy 213.35115 147.931279) (xy 213.068721 147.64885) (xy 212.699708 147.496) (xy 212.300292 147.496) (xy 211.931279 147.64885)
-        (xy 211.64885 147.931279) (xy 211.633225 147.969) (xy 211.075579 147.969) (xy 211.023289 147.958599) (xy 210.970999 147.969)
-        (xy 210.970996 147.969) (xy 210.816104 147.99981) (xy 210.640461 148.117171) (xy 210.610838 148.161505) (xy 209.570343 149.202)
-        (xy 209.206347 149.202) (xy 210.142495 148.265852) (xy 210.186829 148.236229) (xy 210.30419 148.060586) (xy 210.308207 148.04039)
-        (xy 210.357633 148.030559) (xy 210.491267 147.941267) (xy 210.580559 147.807633) (xy 210.611914 147.65) (xy 210.611914 147.153112)
-        (xy 211.022578 146.742449) (xy 211.031279 146.75115) (xy 211.400292 146.904) (xy 211.799708 146.904) (xy 212.168721 146.75115)
-        (xy 212.45115 146.468721) (xy 212.604 146.099708) (xy 212.604 145.700292) (xy 212.45115 145.331279) (xy 212.365456 145.245585)
-        (xy 212.394414 145.1) (xy 212.394414 144.1) (xy 212.363059 143.942367) (xy 212.273767 143.808733) (xy 212.140133 143.719441)
-        (xy 211.9825 143.688086) (xy 211.3225 143.688086) (xy 211.164867 143.719441) (xy 211.031233 143.808733) (xy 210.941941 143.942367)
-        (xy 210.910586 144.1) (xy 210.910586 145.1) (xy 210.922124 145.158005) (xy 210.858 145.222129) (xy 210.858 145.219116)
-        (xy 210.757826 144.977273) (xy 210.572727 144.792175) (xy 210.489414 144.757665) (xy 210.489414 144.1) (xy 210.458059 143.942367)
-        (xy 210.368767 143.808733) (xy 210.235133 143.719441) (xy 210.0775 143.688086) (xy 209.455017 143.688086) (xy 209.458 143.680884)
-        (xy 209.458 143.4185) (xy 209.293502 143.254002) (xy 209.458 143.254002) (xy 209.458 143.242749) (xy 209.545423 143.330172)
-        (xy 209.57859 143.37981) (xy 209.775238 143.511206) (xy 209.948651 143.5457) (xy 209.948652 143.5457) (xy 210.007199 143.557346)
-        (xy 210.065747 143.5457) (xy 211.294853 143.5457) (xy 211.3534 143.557346) (xy 211.411947 143.5457) (xy 211.411949 143.5457)
-        (xy 211.585362 143.511206) (xy 211.78201 143.37981) (xy 211.815177 143.330172) (xy 211.978972 143.166377) (xy 212.02861 143.13321)
-        (xy 212.160006 142.936562) (xy 212.183947 142.816204) (xy 212.221267 142.791267) (xy 212.310559 142.657633) (xy 212.341914 142.5)
-        (xy 212.341914 141.5) (xy 212.310559 141.342367) (xy 212.221267 141.208733) (xy 212.087633 141.119441) (xy 212.065511 141.115041)
-        (xy 212.107825 141.072727) (xy 212.208 140.830885) (xy 212.208 140.5685) (xy 212.0435 140.404) (xy 211.254 140.404)
-        (xy 211.254 140.424) (xy 211.046 140.424) (xy 211.046 140.404) (xy 211.026 140.404) (xy 211.026 140.348906)
-        (xy 213.9404 140.348906) (xy 213.9404 140.651094) (xy 214.056043 140.930279) (xy 214.1944 141.068636) (xy 214.194401 141.531363)
-        (xy 214.056043 141.669721) (xy 213.9404 141.948906) (xy 213.9404 142.251094) (xy 214.056043 142.530279) (xy 214.269721 142.743957)
-        (xy 214.548906 142.8596) (xy 214.851094 142.8596) (xy 215.130279 142.743957) (xy 215.343957 142.530279) (xy 215.4596 142.251094)
-        (xy 215.4596 141.948906) (xy 215.343957 141.669721) (xy 215.2056 141.531364) (xy 215.2056 141.068636) (xy 215.343957 140.930279)
-        (xy 215.4596 140.651094) (xy 215.4596 140.348906) (xy 215.343957 140.069721) (xy 215.130279 139.856043) (xy 214.851094 139.7404)
-        (xy 214.548906 139.7404) (xy 214.269721 139.856043) (xy 214.056043 140.069721) (xy 213.9404 140.348906) (xy 211.026 140.348906)
-        (xy 211.026 140.196) (xy 211.046 140.196) (xy 211.046 139.104) (xy 211.254 139.104) (xy 211.254 140.196)
-        (xy 212.0435 140.196) (xy 212.208 140.0315) (xy 212.208 139.769115) (xy 212.158661 139.65) (xy 212.208 139.530885)
-        (xy 212.208 139.2685) (xy 212.0435 139.104) (xy 211.254 139.104) (xy 211.046 139.104) (xy 211.026 139.104)
-        (xy 211.026 138.896) (xy 211.046 138.896) (xy 211.046 138.1065) (xy 211.254 138.1065) (xy 211.254 138.896)
-        (xy 212.0435 138.896) (xy 212.208 138.7315) (xy 212.208 138.469115) (xy 212.107825 138.227273) (xy 211.922727 138.042174)
-        (xy 211.680884 137.942) (xy 211.4185 137.942) (xy 211.254 138.1065) (xy 211.046 138.1065) (xy 210.8815 137.942)
-        (xy 210.619116 137.942) (xy 210.377273 138.042174) (xy 210.201272 138.218176) (xy 210.05 138.188086) (xy 209.25 138.188086)
-        (xy 209.092367 138.219441) (xy 208.958733 138.308733) (xy 208.927484 138.3555) (xy 208.355925 138.3555) (xy 208.291267 138.258733)
-        (xy 208.203367 138.2) (xy 208.291267 138.141267) (xy 208.380559 138.007633) (xy 208.411914 137.85) (xy 208.411914 137.05)
-        (xy 208.380559 136.892367) (xy 208.35225 136.85) (xy 208.380559 136.807633) (xy 208.383824 136.79122) (xy 208.548906 136.8596)
-        (xy 208.851094 136.8596) (xy 209.130279 136.743957) (xy 209.343957 136.530279) (xy 209.4596 136.251094) (xy 209.4596 135.948906)
-        (xy 209.343957 135.669721) (xy 209.2056 135.531364) (xy 209.2056 135.068636) (xy 209.343957 134.930279) (xy 209.4596 134.651094)
-        (xy 209.4596 134.348906) (xy 213.9404 134.348906) (xy 213.9404 134.651094) (xy 214.056043 134.930279) (xy 214.1944 135.068636)
-        (xy 214.194401 135.531363) (xy 214.056043 135.669721) (xy 213.9404 135.948906) (xy 213.9404 136.251094) (xy 214.056043 136.530279)
-        (xy 214.269721 136.743957) (xy 214.548906 136.8596) (xy 214.851094 136.8596) (xy 215.130279 136.743957) (xy 215.343957 136.530279)
-        (xy 215.4596 136.251094) (xy 215.4596 135.948906) (xy 215.343957 135.669721) (xy 215.2056 135.531364) (xy 215.2056 135.068636)
-        (xy 215.343957 134.930279) (xy 215.4596 134.651094) (xy 215.4596 134.348906) (xy 215.343957 134.069721) (xy 215.130279 133.856043)
-        (xy 214.851094 133.7404) (xy 214.548906 133.7404) (xy 214.269721 133.856043) (xy 214.056043 134.069721) (xy 213.9404 134.348906)
-        (xy 209.4596 134.348906) (xy 209.343957 134.069721) (xy 209.130279 133.856043) (xy 208.851094 133.7404) (xy 208.548906 133.7404)
-        (xy 208.387719 133.807166) (xy 208.372727 133.792175) (xy 208.130885 133.692) (xy 207.8685 133.692) (xy 207.704 133.8565)
+        (xy 215.306043 120.769721) (xy 215.1904 121.048906) (xy 215.1904 121.351094) (xy 215.306043 121.630279) (xy 215.519721 121.843957)
+        (xy 215.798906 121.9596) (xy 216.101094 121.9596) (xy 216.380279 121.843957) (xy 216.593957 121.630279) (xy 216.7096 121.351094)
+        (xy 216.7096 121.048906) (xy 216.593957 120.769721) (xy 216.474236 120.65) (xy 217.35 120.65) (xy 217.35 125.183383)
+        (xy 217.30481 125.251015) (xy 217.274 125.405907) (xy 217.274 125.40591) (xy 217.263599 125.4582) (xy 217.274 125.51049)
+        (xy 217.274001 130.285251) (xy 216.806105 130.753148) (xy 216.761771 130.782771) (xy 216.64441 130.958415) (xy 216.6136 131.113307)
+        (xy 216.6136 131.11331) (xy 216.603199 131.1656) (xy 216.6136 131.21789) (xy 216.613601 136.305052) (xy 216.348905 136.569748)
+        (xy 216.304571 136.599371) (xy 216.18721 136.775015) (xy 216.1564 136.929907) (xy 216.1564 136.92991) (xy 216.145999 136.9822)
+        (xy 216.1564 137.03449) (xy 216.156401 141.857502) (xy 216.1564 141.857507) (xy 216.1564 142.197853) (xy 215.942505 142.411748)
+        (xy 215.898171 142.441371) (xy 215.78081 142.617015) (xy 215.75 142.771907) (xy 215.75 142.77191) (xy 215.739599 142.8242)
+        (xy 215.75 142.87649) (xy 215.750001 148.014451) (xy 214.841853 148.9226) (xy 213.411675 148.9226) (xy 213.504 148.699708)
+        (xy 213.504 148.300292) (xy 213.35115 147.931279) (xy 213.068721 147.64885) (xy 212.699708 147.496) (xy 212.300292 147.496)
+        (xy 211.931279 147.64885) (xy 211.64885 147.931279) (xy 211.633225 147.969) (xy 211.075579 147.969) (xy 211.023289 147.958599)
+        (xy 210.970999 147.969) (xy 210.970996 147.969) (xy 210.816104 147.99981) (xy 210.640461 148.117171) (xy 210.610838 148.161505)
+        (xy 209.570343 149.202) (xy 209.206347 149.202) (xy 210.142495 148.265852) (xy 210.186829 148.236229) (xy 210.30419 148.060586)
+        (xy 210.308207 148.04039) (xy 210.357633 148.030559) (xy 210.491267 147.941267) (xy 210.580559 147.807633) (xy 210.611914 147.65)
+        (xy 210.611914 147.153112) (xy 211.022578 146.742449) (xy 211.031279 146.75115) (xy 211.400292 146.904) (xy 211.799708 146.904)
+        (xy 212.168721 146.75115) (xy 212.45115 146.468721) (xy 212.458819 146.450205) (xy 214.1944 146.450205) (xy 214.194401 148.149796)
+        (xy 214.223736 148.297275) (xy 214.335484 148.464517) (xy 214.502726 148.576265) (xy 214.7 148.615505) (xy 214.897275 148.576265)
+        (xy 215.064517 148.464517) (xy 215.176265 148.297275) (xy 215.2056 148.149796) (xy 215.2056 146.450204) (xy 215.176265 146.302725)
+        (xy 215.064517 146.135483) (xy 214.897274 146.023735) (xy 214.7 145.984495) (xy 214.502725 146.023735) (xy 214.335483 146.135483)
+        (xy 214.223735 146.302726) (xy 214.1944 146.450205) (xy 212.458819 146.450205) (xy 212.604 146.099708) (xy 212.604 145.700292)
+        (xy 212.45115 145.331279) (xy 212.365456 145.245585) (xy 212.394414 145.1) (xy 212.394414 144.1) (xy 212.363059 143.942367)
+        (xy 212.273767 143.808733) (xy 212.140133 143.719441) (xy 211.9825 143.688086) (xy 211.3225 143.688086) (xy 211.164867 143.719441)
+        (xy 211.031233 143.808733) (xy 210.941941 143.942367) (xy 210.910586 144.1) (xy 210.910586 145.1) (xy 210.922124 145.158005)
+        (xy 210.858 145.222129) (xy 210.858 145.219116) (xy 210.757826 144.977273) (xy 210.572727 144.792175) (xy 210.489414 144.757665)
+        (xy 210.489414 144.1) (xy 210.458059 143.942367) (xy 210.368767 143.808733) (xy 210.235133 143.719441) (xy 210.0775 143.688086)
+        (xy 209.455017 143.688086) (xy 209.458 143.680884) (xy 209.458 143.4185) (xy 209.293502 143.254002) (xy 209.458 143.254002)
+        (xy 209.458 143.242749) (xy 209.545423 143.330172) (xy 209.57859 143.37981) (xy 209.775238 143.511206) (xy 209.948651 143.5457)
+        (xy 209.948652 143.5457) (xy 210.007199 143.557346) (xy 210.065747 143.5457) (xy 211.294853 143.5457) (xy 211.3534 143.557346)
+        (xy 211.411947 143.5457) (xy 211.411949 143.5457) (xy 211.585362 143.511206) (xy 211.78201 143.37981) (xy 211.815177 143.330172)
+        (xy 211.978972 143.166377) (xy 212.02861 143.13321) (xy 212.160006 142.936562) (xy 212.183947 142.816204) (xy 212.221267 142.791267)
+        (xy 212.310559 142.657633) (xy 212.341914 142.5) (xy 212.341914 141.5) (xy 212.310559 141.342367) (xy 212.221267 141.208733)
+        (xy 212.087633 141.119441) (xy 212.065511 141.115041) (xy 212.107825 141.072727) (xy 212.208 140.830885) (xy 212.208 140.5685)
+        (xy 212.089705 140.450205) (xy 214.1944 140.450205) (xy 214.194401 142.149796) (xy 214.223736 142.297275) (xy 214.335484 142.464517)
+        (xy 214.502726 142.576265) (xy 214.7 142.615505) (xy 214.897275 142.576265) (xy 215.064517 142.464517) (xy 215.176265 142.297275)
+        (xy 215.2056 142.149796) (xy 215.2056 140.450204) (xy 215.176265 140.302725) (xy 215.064517 140.135483) (xy 214.897274 140.023735)
+        (xy 214.7 139.984495) (xy 214.502725 140.023735) (xy 214.335483 140.135483) (xy 214.223735 140.302726) (xy 214.1944 140.450205)
+        (xy 212.089705 140.450205) (xy 212.0435 140.404) (xy 211.254 140.404) (xy 211.254 140.424) (xy 211.046 140.424)
+        (xy 211.046 140.404) (xy 211.026 140.404) (xy 211.026 140.196) (xy 211.046 140.196) (xy 211.046 139.104)
+        (xy 211.254 139.104) (xy 211.254 140.196) (xy 212.0435 140.196) (xy 212.208 140.0315) (xy 212.208 139.769115)
+        (xy 212.158661 139.65) (xy 212.208 139.530885) (xy 212.208 139.2685) (xy 212.0435 139.104) (xy 211.254 139.104)
+        (xy 211.046 139.104) (xy 211.026 139.104) (xy 211.026 138.896) (xy 211.046 138.896) (xy 211.046 138.1065)
+        (xy 211.254 138.1065) (xy 211.254 138.896) (xy 212.0435 138.896) (xy 212.208 138.7315) (xy 212.208 138.469115)
+        (xy 212.107825 138.227273) (xy 211.922727 138.042174) (xy 211.680884 137.942) (xy 211.4185 137.942) (xy 211.254 138.1065)
+        (xy 211.046 138.1065) (xy 210.8815 137.942) (xy 210.619116 137.942) (xy 210.377273 138.042174) (xy 210.201272 138.218176)
+        (xy 210.05 138.188086) (xy 209.25 138.188086) (xy 209.092367 138.219441) (xy 208.958733 138.308733) (xy 208.927484 138.3555)
+        (xy 208.355925 138.3555) (xy 208.291267 138.258733) (xy 208.203367 138.2) (xy 208.291267 138.141267) (xy 208.380559 138.007633)
+        (xy 208.411914 137.85) (xy 208.411914 137.05) (xy 208.380559 136.892367) (xy 208.35225 136.85) (xy 208.380559 136.807633)
+        (xy 208.411914 136.65) (xy 208.411914 136.515586) (xy 208.502726 136.576265) (xy 208.7 136.615505) (xy 208.897275 136.576265)
+        (xy 209.064517 136.464517) (xy 209.176265 136.297275) (xy 209.2056 136.149796) (xy 209.2056 134.450205) (xy 214.1944 134.450205)
+        (xy 214.194401 136.149796) (xy 214.223736 136.297275) (xy 214.335484 136.464517) (xy 214.502726 136.576265) (xy 214.7 136.615505)
+        (xy 214.897275 136.576265) (xy 215.064517 136.464517) (xy 215.176265 136.297275) (xy 215.2056 136.149796) (xy 215.2056 134.450204)
+        (xy 215.176265 134.302725) (xy 215.064517 134.135483) (xy 214.897274 134.023735) (xy 214.7 133.984495) (xy 214.502725 134.023735)
+        (xy 214.335483 134.135483) (xy 214.223735 134.302726) (xy 214.1944 134.450205) (xy 209.2056 134.450205) (xy 209.2056 134.450204)
+        (xy 209.176265 134.302725) (xy 209.064517 134.135483) (xy 208.897274 134.023735) (xy 208.7 133.984495) (xy 208.571412 134.010072)
+        (xy 208.557826 133.977273) (xy 208.372727 133.792175) (xy 208.130885 133.692) (xy 207.8685 133.692) (xy 207.704 133.8565)
         (xy 207.704 134.646) (xy 207.724 134.646) (xy 207.724 134.854) (xy 207.704 134.854) (xy 207.704 134.874)
         (xy 207.496 134.874) (xy 207.496 134.854) (xy 206.7065 134.854) (xy 206.542 135.0185) (xy 206.542 135.280884)
         (xy 206.642174 135.522727) (xy 206.818176 135.698728) (xy 206.794677 135.816864) (xy 206.65 135.788086) (xy 206.118638 135.788086)
@@ -2196,135 +1898,115 @@
         (xy 205.196 136.804) (xy 205.176 136.804) (xy 205.176 136.596) (xy 205.196 136.596) (xy 205.196 135.7065)
         (xy 205.0315 135.542) (xy 204.869116 135.542) (xy 204.627273 135.642174) (xy 204.481362 135.788086) (xy 203.95 135.788086)
         (xy 203.792367 135.819441) (xy 203.658733 135.908733) (xy 203.569441 136.042367) (xy 203.538086 136.2) (xy 203.538086 136.5055)
-        (xy 203.354221 136.5055) (xy 203.4596 136.251094) (xy 203.4596 135.948906) (xy 203.343957 135.669721) (xy 203.2056 135.531364)
-        (xy 203.2056 135.068636) (xy 203.343957 134.930279) (xy 203.4596 134.651094) (xy 203.4596 134.348906) (xy 203.405839 134.219116)
-        (xy 206.542 134.219116) (xy 206.542 134.4815) (xy 206.7065 134.646) (xy 207.496 134.646) (xy 207.496 133.8565)
-        (xy 207.3315 133.692) (xy 207.069115 133.692) (xy 206.827273 133.792175) (xy 206.642174 133.977273) (xy 206.542 134.219116)
-        (xy 203.405839 134.219116) (xy 203.343957 134.069721) (xy 203.130279 133.856043) (xy 202.851094 133.7404) (xy 202.548906 133.7404)
-        (xy 202.269721 133.856043) (xy 202.056043 134.069721) (xy 201.9404 134.348906) (xy 201.9404 134.651094) (xy 202.056043 134.930279)
-        (xy 202.1944 135.068636) (xy 202.194401 135.531363) (xy 202.056043 135.669721) (xy 201.9404 135.948906) (xy 201.9404 136.251094)
-        (xy 202.045779 136.5055) (xy 201.386429 136.5055) (xy 201.257633 136.419441) (xy 201.1 136.388086) (xy 199.4 136.388086)
-        (xy 199.242367 136.419441) (xy 199.108733 136.508733) (xy 199.019441 136.642367) (xy 198.988086 136.8) (xy 198.988086 137.4)
-        (xy 199.019441 137.557633) (xy 199.04775 137.6) (xy 199.019441 137.642367) (xy 198.988086 137.8) (xy 198.988086 138.4)
-        (xy 199.019441 138.557633) (xy 199.04775 138.6) (xy 199.019441 138.642367) (xy 198.988086 138.8) (xy 198.988086 139.281362)
-        (xy 198.842174 139.427273) (xy 198.742 139.669116) (xy 198.742 139.8315) (xy 198.9065 139.996) (xy 200.146 139.996)
-        (xy 200.146 139.976) (xy 200.354 139.976) (xy 200.354 139.996) (xy 201.5935 139.996) (xy 201.758 139.8315)
-        (xy 201.758 139.669116) (xy 201.742212 139.631) (xy 203.544252 139.631) (xy 203.569441 139.757633) (xy 203.628271 139.845678)
-        (xy 203.608733 139.858733) (xy 203.519441 139.992367) (xy 203.488086 140.15) (xy 203.488086 140.825486) (xy 203.350571 140.917371)
-        (xy 203.347237 140.922361) (xy 203.4596 140.651094) (xy 203.4596 140.348906) (xy 203.343957 140.069721) (xy 203.130279 139.856043)
-        (xy 202.851094 139.7404) (xy 202.548906 139.7404) (xy 202.269721 139.856043) (xy 202.056043 140.069721) (xy 201.9404 140.348906)
-        (xy 201.9404 140.651094) (xy 202.056043 140.930279) (xy 202.1944 141.068636) (xy 202.194401 141.531363) (xy 202.056043 141.669721)
-        (xy 201.9404 141.948906) (xy 201.9404 142.251094) (xy 201.9894 142.369389) (xy 201.575894 142.369389) (xy 201.5236 142.358987)
-        (xy 201.471306 142.369389) (xy 201.316414 142.400199) (xy 201.254796 142.441371) (xy 201.188447 142.485704) (xy 201.140771 142.51756)
-        (xy 201.11115 142.561891) (xy 197.419923 146.253119) (xy 197.343957 146.069721) (xy 197.130279 145.856043) (xy 196.851094 145.7404)
-        (xy 196.548906 145.7404) (xy 196.269721 145.856043) (xy 196.056043 146.069721) (xy 195.9404 146.348906) (xy 195.9404 146.651094)
-        (xy 196.056043 146.930279) (xy 196.1944 147.068636) (xy 196.194401 147.531363) (xy 196.056043 147.669721) (xy 195.9404 147.948906)
-        (xy 195.9404 148.251094) (xy 196.056043 148.530279) (xy 196.269721 148.743957) (xy 196.548906 148.8596) (xy 196.851094 148.8596)
-        (xy 197.130279 148.743957) (xy 197.1572 148.717036) (xy 197.157201 151.882965) (xy 197.130279 151.856043) (xy 196.851094 151.7404)
-        (xy 196.548906 151.7404) (xy 196.269721 151.856043) (xy 196.056043 152.069721) (xy 195.9404 152.348906) (xy 195.9404 152.651094)
-        (xy 196.056043 152.930279) (xy 196.1944 153.068636) (xy 196.194401 153.531363) (xy 196.056043 153.669721) (xy 195.9404 153.948906)
-        (xy 195.9404 154.251094) (xy 196.056043 154.530279) (xy 196.112564 154.5868) (xy 194.225148 154.5868) (xy 194.05 154.411652)
+        (xy 203.003182 136.5055) (xy 203.064517 136.464517) (xy 203.176265 136.297275) (xy 203.2056 136.149796) (xy 203.2056 134.450204)
+        (xy 203.176265 134.302725) (xy 203.1204 134.219116) (xy 206.542 134.219116) (xy 206.542 134.4815) (xy 206.7065 134.646)
+        (xy 207.496 134.646) (xy 207.496 133.8565) (xy 207.3315 133.692) (xy 207.069115 133.692) (xy 206.827273 133.792175)
+        (xy 206.642174 133.977273) (xy 206.542 134.219116) (xy 203.1204 134.219116) (xy 203.064517 134.135483) (xy 202.897274 134.023735)
+        (xy 202.7 133.984495) (xy 202.502725 134.023735) (xy 202.335483 134.135483) (xy 202.223735 134.302726) (xy 202.1944 134.450205)
+        (xy 202.194401 136.149796) (xy 202.223736 136.297275) (xy 202.335484 136.464517) (xy 202.396819 136.5055) (xy 201.386429 136.5055)
+        (xy 201.257633 136.419441) (xy 201.1 136.388086) (xy 199.4 136.388086) (xy 199.242367 136.419441) (xy 199.108733 136.508733)
+        (xy 199.019441 136.642367) (xy 198.988086 136.8) (xy 198.988086 137.4) (xy 199.019441 137.557633) (xy 199.04775 137.6)
+        (xy 199.019441 137.642367) (xy 198.988086 137.8) (xy 198.988086 138.4) (xy 199.019441 138.557633) (xy 199.04775 138.6)
+        (xy 199.019441 138.642367) (xy 198.988086 138.8) (xy 198.988086 139.281362) (xy 198.842174 139.427273) (xy 198.742 139.669116)
+        (xy 198.742 139.8315) (xy 198.9065 139.996) (xy 200.146 139.996) (xy 200.146 139.976) (xy 200.354 139.976)
+        (xy 200.354 139.996) (xy 201.5935 139.996) (xy 201.758 139.8315) (xy 201.758 139.669116) (xy 201.742212 139.631)
+        (xy 203.544252 139.631) (xy 203.569441 139.757633) (xy 203.628271 139.845678) (xy 203.608733 139.858733) (xy 203.519441 139.992367)
+        (xy 203.488086 140.15) (xy 203.488086 140.825486) (xy 203.350571 140.917371) (xy 203.320946 140.961708) (xy 203.2056 141.077054)
+        (xy 203.2056 140.450204) (xy 203.176265 140.302725) (xy 203.064517 140.135483) (xy 202.897274 140.023735) (xy 202.7 139.984495)
+        (xy 202.502725 140.023735) (xy 202.335483 140.135483) (xy 202.223735 140.302726) (xy 202.1944 140.450205) (xy 202.194401 142.149796)
+        (xy 202.223736 142.297275) (xy 202.271921 142.369389) (xy 201.575894 142.369389) (xy 201.5236 142.358987) (xy 201.471306 142.369389)
+        (xy 201.316414 142.400199) (xy 201.254796 142.441371) (xy 201.188447 142.485704) (xy 201.140771 142.51756) (xy 201.11115 142.561891)
+        (xy 197.349705 146.323337) (xy 197.305371 146.35296) (xy 197.2056 146.502279) (xy 197.2056 146.450204) (xy 197.176265 146.302725)
+        (xy 197.064517 146.135483) (xy 196.897274 146.023735) (xy 196.7 145.984495) (xy 196.502725 146.023735) (xy 196.335483 146.135483)
+        (xy 196.223735 146.302726) (xy 196.1944 146.450205) (xy 196.194401 148.149796) (xy 196.223736 148.297275) (xy 196.335484 148.464517)
+        (xy 196.502726 148.576265) (xy 196.7 148.615505) (xy 196.897275 148.576265) (xy 197.064517 148.464517) (xy 197.1572 148.325807)
+        (xy 197.157201 152.274193) (xy 197.064517 152.135483) (xy 196.897274 152.023735) (xy 196.7 151.984495) (xy 196.502725 152.023735)
+        (xy 196.335483 152.135483) (xy 196.223735 152.302726) (xy 196.1944 152.450205) (xy 196.194401 154.149796) (xy 196.223736 154.297275)
+        (xy 196.335484 154.464517) (xy 196.502726 154.576265) (xy 196.555689 154.5868) (xy 194.225148 154.5868) (xy 194.05 154.411652)
         (xy 194.05 142.901968) (xy 194.1 142.911914) (xy 195.9 142.911914) (xy 196.057633 142.880559) (xy 196.191267 142.791267)
-        (xy 196.241641 142.715877) (xy 196.269721 142.743957) (xy 196.548906 142.8596) (xy 196.851094 142.8596) (xy 197.130279 142.743957)
-        (xy 197.343957 142.530279) (xy 197.4596 142.251094) (xy 197.4596 141.948906) (xy 197.343957 141.669721) (xy 197.2056 141.531364)
-        (xy 197.2056 141.068636) (xy 197.343957 140.930279) (xy 197.4596 140.651094) (xy 197.4596 140.3685) (xy 198.742 140.3685)
-        (xy 198.742 140.530884) (xy 198.842174 140.772727) (xy 199.027273 140.957825) (xy 199.269115 141.058) (xy 199.9815 141.058)
-        (xy 200.146 140.8935) (xy 200.146 140.204) (xy 200.354 140.204) (xy 200.354 140.8935) (xy 200.5185 141.058)
-        (xy 201.230885 141.058) (xy 201.472727 140.957825) (xy 201.657826 140.772727) (xy 201.758 140.530884) (xy 201.758 140.3685)
-        (xy 201.5935 140.204) (xy 200.354 140.204) (xy 200.146 140.204) (xy 198.9065 140.204) (xy 198.742 140.3685)
-        (xy 197.4596 140.3685) (xy 197.4596 140.348906) (xy 197.343957 140.069721) (xy 197.130279 139.856043) (xy 196.851094 139.7404)
-        (xy 196.548906 139.7404) (xy 196.269721 139.856043) (xy 196.056043 140.069721) (xy 195.9404 140.348906) (xy 195.9404 140.651094)
-        (xy 196.051008 140.918123) (xy 195.9 140.888086) (xy 194.1 140.888086) (xy 194.05 140.898032) (xy 194.05 136.301968)
-        (xy 194.1 136.311914) (xy 195.9 136.311914) (xy 195.9606 136.29986) (xy 196.056043 136.530279) (xy 196.269721 136.743957)
-        (xy 196.548906 136.8596) (xy 196.851094 136.8596) (xy 197.130279 136.743957) (xy 197.343957 136.530279) (xy 197.4596 136.251094)
-        (xy 197.4596 135.948906) (xy 197.343957 135.669721) (xy 197.2056 135.531364) (xy 197.2056 135.068636) (xy 197.343957 134.930279)
-        (xy 197.4596 134.651094) (xy 197.4596 134.348906) (xy 197.343957 134.069721) (xy 197.130279 133.856043) (xy 196.851094 133.7404)
-        (xy 196.548906 133.7404) (xy 196.269721 133.856043) (xy 196.056043 134.069721) (xy 195.9606 134.30014) (xy 195.9 134.288086)
-        (xy 194.1 134.288086) (xy 194.05 134.298032) (xy 194.05 128.348906) (xy 195.9404 128.348906) (xy 195.9404 128.651094)
-        (xy 196.056043 128.930279) (xy 196.1944 129.068636) (xy 196.194401 129.531363) (xy 196.056043 129.669721) (xy 195.9404 129.948906)
-        (xy 195.9404 130.251094) (xy 196.056043 130.530279) (xy 196.269721 130.743957) (xy 196.548906 130.8596) (xy 196.851094 130.8596)
-        (xy 197.130279 130.743957) (xy 197.343957 130.530279) (xy 197.4596 130.251094) (xy 197.4596 129.948906) (xy 197.343957 129.669721)
-        (xy 197.2056 129.531364) (xy 197.2056 129.068636) (xy 197.343957 128.930279) (xy 197.4596 128.651094) (xy 197.4596 128.348906)
-        (xy 201.9404 128.348906) (xy 201.9404 128.651094) (xy 202.056043 128.930279) (xy 202.1944 129.068636) (xy 202.194401 129.531363)
-        (xy 202.056043 129.669721) (xy 201.9404 129.948906) (xy 201.9404 130.251094) (xy 202.056043 130.530279) (xy 202.269721 130.743957)
-        (xy 202.548906 130.8596) (xy 202.851094 130.8596) (xy 203.130279 130.743957) (xy 203.343957 130.530279) (xy 203.4596 130.251094)
-        (xy 203.4596 129.948906) (xy 203.343957 129.669721) (xy 203.2056 129.531364) (xy 203.2056 129.068636) (xy 203.343957 128.930279)
-        (xy 203.4596 128.651094) (xy 203.4596 128.348906) (xy 207.9404 128.348906) (xy 207.9404 128.651094) (xy 208.056043 128.930279)
-        (xy 208.1944 129.068636) (xy 208.194401 129.531363) (xy 208.056043 129.669721) (xy 207.9404 129.948906) (xy 207.9404 130.251094)
-        (xy 208.056043 130.530279) (xy 208.269721 130.743957) (xy 208.548906 130.8596) (xy 208.851094 130.8596) (xy 209.130279 130.743957)
-        (xy 209.343957 130.530279) (xy 209.4596 130.251094) (xy 209.4596 129.948906) (xy 209.343957 129.669721) (xy 209.2056 129.531364)
-        (xy 209.2056 129.068636) (xy 209.343957 128.930279) (xy 209.4596 128.651094) (xy 209.4596 128.348906) (xy 213.9404 128.348906)
-        (xy 213.9404 128.651094) (xy 214.056043 128.930279) (xy 214.1944 129.068636) (xy 214.194401 129.531363) (xy 214.056043 129.669721)
-        (xy 213.9404 129.948906) (xy 213.9404 130.251094) (xy 214.056043 130.530279) (xy 214.269721 130.743957) (xy 214.548906 130.8596)
-        (xy 214.851094 130.8596) (xy 215.130279 130.743957) (xy 215.343957 130.530279) (xy 215.4596 130.251094) (xy 215.4596 129.948906)
-        (xy 215.343957 129.669721) (xy 215.2056 129.531364) (xy 215.2056 129.068636) (xy 215.343957 128.930279) (xy 215.4596 128.651094)
-        (xy 215.4596 128.348906) (xy 215.343957 128.069721) (xy 215.130279 127.856043) (xy 214.851094 127.7404) (xy 214.548906 127.7404)
-        (xy 214.269721 127.856043) (xy 214.056043 128.069721) (xy 213.9404 128.348906) (xy 209.4596 128.348906) (xy 209.343957 128.069721)
-        (xy 209.130279 127.856043) (xy 208.851094 127.7404) (xy 208.548906 127.7404) (xy 208.269721 127.856043) (xy 208.056043 128.069721)
-        (xy 207.9404 128.348906) (xy 203.4596 128.348906) (xy 203.343957 128.069721) (xy 203.130279 127.856043) (xy 202.851094 127.7404)
-        (xy 202.548906 127.7404) (xy 202.269721 127.856043) (xy 202.056043 128.069721) (xy 201.9404 128.348906) (xy 197.4596 128.348906)
-        (xy 197.343957 128.069721) (xy 197.130279 127.856043) (xy 196.851094 127.7404) (xy 196.548906 127.7404) (xy 196.269721 127.856043)
-        (xy 196.056043 128.069721) (xy 195.9404 128.348906) (xy 194.05 128.348906) (xy 194.05 122.348906) (xy 195.9404 122.348906)
-        (xy 195.9404 122.651094) (xy 196.056043 122.930279) (xy 196.1944 123.068636) (xy 196.194401 123.531363) (xy 196.056043 123.669721)
-        (xy 195.9404 123.948906) (xy 195.9404 124.251094) (xy 196.056043 124.530279) (xy 196.269721 124.743957) (xy 196.548906 124.8596)
-        (xy 196.851094 124.8596) (xy 197.130279 124.743957) (xy 197.343957 124.530279) (xy 197.4596 124.251094) (xy 197.4596 123.948906)
-        (xy 197.343957 123.669721) (xy 197.2056 123.531364) (xy 197.2056 123.068636) (xy 197.343957 122.930279) (xy 197.4596 122.651094)
-        (xy 197.4596 122.348906) (xy 201.9404 122.348906) (xy 201.9404 122.651094) (xy 202.056043 122.930279) (xy 202.1944 123.068636)
-        (xy 202.194401 123.531363) (xy 202.056043 123.669721) (xy 201.9404 123.948906) (xy 201.9404 124.251094) (xy 202.056043 124.530279)
-        (xy 202.269721 124.743957) (xy 202.548906 124.8596) (xy 202.851094 124.8596) (xy 203.130279 124.743957) (xy 203.343957 124.530279)
-        (xy 203.4596 124.251094) (xy 203.4596 123.948906) (xy 203.343957 123.669721) (xy 203.2056 123.531364) (xy 203.2056 123.068636)
-        (xy 203.343957 122.930279) (xy 203.4596 122.651094) (xy 203.4596 122.348906) (xy 207.9404 122.348906) (xy 207.9404 122.651094)
-        (xy 208.056043 122.930279) (xy 208.1944 123.068636) (xy 208.194401 123.531363) (xy 208.056043 123.669721) (xy 207.9404 123.948906)
-        (xy 207.9404 124.251094) (xy 208.056043 124.530279) (xy 208.269721 124.743957) (xy 208.548906 124.8596) (xy 208.851094 124.8596)
-        (xy 209.130279 124.743957) (xy 209.343957 124.530279) (xy 209.4596 124.251094) (xy 209.4596 123.948906) (xy 209.343957 123.669721)
-        (xy 209.2056 123.531364) (xy 209.2056 123.068636) (xy 209.343957 122.930279) (xy 209.4596 122.651094) (xy 209.4596 122.348906)
-        (xy 213.9404 122.348906) (xy 213.9404 122.651094) (xy 214.056043 122.930279) (xy 214.1944 123.068636) (xy 214.194401 123.531363)
-        (xy 214.056043 123.669721) (xy 213.9404 123.948906) (xy 213.9404 124.251094) (xy 214.056043 124.530279) (xy 214.269721 124.743957)
-        (xy 214.548906 124.8596) (xy 214.851094 124.8596) (xy 215.130279 124.743957) (xy 215.343957 124.530279) (xy 215.4596 124.251094)
-        (xy 215.4596 123.948906) (xy 215.343957 123.669721) (xy 215.2056 123.531364) (xy 215.2056 123.068636) (xy 215.343957 122.930279)
-        (xy 215.4596 122.651094) (xy 215.4596 122.348906) (xy 215.343957 122.069721) (xy 215.130279 121.856043) (xy 214.851094 121.7404)
-        (xy 214.548906 121.7404) (xy 214.269721 121.856043) (xy 214.056043 122.069721) (xy 213.9404 122.348906) (xy 209.4596 122.348906)
-        (xy 209.343957 122.069721) (xy 209.130279 121.856043) (xy 208.851094 121.7404) (xy 208.548906 121.7404) (xy 208.269721 121.856043)
-        (xy 208.056043 122.069721) (xy 207.9404 122.348906) (xy 203.4596 122.348906) (xy 203.343957 122.069721) (xy 203.130279 121.856043)
-        (xy 202.851094 121.7404) (xy 202.548906 121.7404) (xy 202.269721 121.856043) (xy 202.056043 122.069721) (xy 201.9404 122.348906)
-        (xy 197.4596 122.348906) (xy 197.343957 122.069721) (xy 197.130279 121.856043) (xy 196.851094 121.7404) (xy 196.548906 121.7404)
-        (xy 196.269721 121.856043) (xy 196.056043 122.069721) (xy 195.9404 122.348906) (xy 194.05 122.348906) (xy 194.05 121.162132)
-        (xy 194.562132 120.65) (xy 217.35 120.65)
+        (xy 196.280559 142.657633) (xy 196.311914 142.5) (xy 196.311914 142.429242) (xy 196.335484 142.464517) (xy 196.502726 142.576265)
+        (xy 196.7 142.615505) (xy 196.897275 142.576265) (xy 197.064517 142.464517) (xy 197.176265 142.297275) (xy 197.2056 142.149796)
+        (xy 197.2056 140.450204) (xy 197.189349 140.3685) (xy 198.742 140.3685) (xy 198.742 140.530884) (xy 198.842174 140.772727)
+        (xy 199.027273 140.957825) (xy 199.269115 141.058) (xy 199.9815 141.058) (xy 200.146 140.8935) (xy 200.146 140.204)
+        (xy 200.354 140.204) (xy 200.354 140.8935) (xy 200.5185 141.058) (xy 201.230885 141.058) (xy 201.472727 140.957825)
+        (xy 201.657826 140.772727) (xy 201.758 140.530884) (xy 201.758 140.3685) (xy 201.5935 140.204) (xy 200.354 140.204)
+        (xy 200.146 140.204) (xy 198.9065 140.204) (xy 198.742 140.3685) (xy 197.189349 140.3685) (xy 197.176265 140.302725)
+        (xy 197.064517 140.135483) (xy 196.897274 140.023735) (xy 196.7 139.984495) (xy 196.502725 140.023735) (xy 196.335483 140.135483)
+        (xy 196.223735 140.302726) (xy 196.1944 140.450205) (xy 196.1944 141.013422) (xy 196.191267 141.008733) (xy 196.057633 140.919441)
+        (xy 195.9 140.888086) (xy 194.1 140.888086) (xy 194.05 140.898032) (xy 194.05 136.301968) (xy 194.1 136.311914)
+        (xy 195.9 136.311914) (xy 196.057633 136.280559) (xy 196.191267 136.191267) (xy 196.200039 136.178139) (xy 196.223736 136.297275)
+        (xy 196.335484 136.464517) (xy 196.502726 136.576265) (xy 196.7 136.615505) (xy 196.897275 136.576265) (xy 197.064517 136.464517)
+        (xy 197.176265 136.297275) (xy 197.2056 136.149796) (xy 197.2056 134.450204) (xy 197.176265 134.302725) (xy 197.064517 134.135483)
+        (xy 196.897274 134.023735) (xy 196.7 133.984495) (xy 196.502725 134.023735) (xy 196.335483 134.135483) (xy 196.223735 134.302726)
+        (xy 196.200038 134.42186) (xy 196.191267 134.408733) (xy 196.057633 134.319441) (xy 195.9 134.288086) (xy 194.1 134.288086)
+        (xy 194.05 134.298032) (xy 194.05 128.450205) (xy 196.1944 128.450205) (xy 196.194401 130.149796) (xy 196.223736 130.297275)
+        (xy 196.335484 130.464517) (xy 196.502726 130.576265) (xy 196.7 130.615505) (xy 196.897275 130.576265) (xy 197.064517 130.464517)
+        (xy 197.176265 130.297275) (xy 197.2056 130.149796) (xy 197.2056 128.450205) (xy 202.1944 128.450205) (xy 202.194401 130.149796)
+        (xy 202.223736 130.297275) (xy 202.335484 130.464517) (xy 202.502726 130.576265) (xy 202.7 130.615505) (xy 202.897275 130.576265)
+        (xy 203.064517 130.464517) (xy 203.176265 130.297275) (xy 203.2056 130.149796) (xy 203.2056 128.450205) (xy 208.1944 128.450205)
+        (xy 208.194401 130.149796) (xy 208.223736 130.297275) (xy 208.335484 130.464517) (xy 208.502726 130.576265) (xy 208.7 130.615505)
+        (xy 208.897275 130.576265) (xy 209.064517 130.464517) (xy 209.176265 130.297275) (xy 209.2056 130.149796) (xy 209.2056 128.450205)
+        (xy 214.1944 128.450205) (xy 214.194401 130.149796) (xy 214.223736 130.297275) (xy 214.335484 130.464517) (xy 214.502726 130.576265)
+        (xy 214.7 130.615505) (xy 214.897275 130.576265) (xy 215.064517 130.464517) (xy 215.176265 130.297275) (xy 215.2056 130.149796)
+        (xy 215.2056 128.450204) (xy 215.176265 128.302725) (xy 215.064517 128.135483) (xy 214.897274 128.023735) (xy 214.7 127.984495)
+        (xy 214.502725 128.023735) (xy 214.335483 128.135483) (xy 214.223735 128.302726) (xy 214.1944 128.450205) (xy 209.2056 128.450205)
+        (xy 209.2056 128.450204) (xy 209.176265 128.302725) (xy 209.064517 128.135483) (xy 208.897274 128.023735) (xy 208.7 127.984495)
+        (xy 208.502725 128.023735) (xy 208.335483 128.135483) (xy 208.223735 128.302726) (xy 208.1944 128.450205) (xy 203.2056 128.450205)
+        (xy 203.2056 128.450204) (xy 203.176265 128.302725) (xy 203.064517 128.135483) (xy 202.897274 128.023735) (xy 202.7 127.984495)
+        (xy 202.502725 128.023735) (xy 202.335483 128.135483) (xy 202.223735 128.302726) (xy 202.1944 128.450205) (xy 197.2056 128.450205)
+        (xy 197.2056 128.450204) (xy 197.176265 128.302725) (xy 197.064517 128.135483) (xy 196.897274 128.023735) (xy 196.7 127.984495)
+        (xy 196.502725 128.023735) (xy 196.335483 128.135483) (xy 196.223735 128.302726) (xy 196.1944 128.450205) (xy 194.05 128.450205)
+        (xy 194.05 122.450205) (xy 196.1944 122.450205) (xy 196.194401 124.149796) (xy 196.223736 124.297275) (xy 196.335484 124.464517)
+        (xy 196.502726 124.576265) (xy 196.7 124.615505) (xy 196.897275 124.576265) (xy 197.064517 124.464517) (xy 197.176265 124.297275)
+        (xy 197.2056 124.149796) (xy 197.2056 122.450205) (xy 202.1944 122.450205) (xy 202.194401 124.149796) (xy 202.223736 124.297275)
+        (xy 202.335484 124.464517) (xy 202.502726 124.576265) (xy 202.7 124.615505) (xy 202.897275 124.576265) (xy 203.064517 124.464517)
+        (xy 203.176265 124.297275) (xy 203.2056 124.149796) (xy 203.2056 122.450205) (xy 208.1944 122.450205) (xy 208.194401 124.149796)
+        (xy 208.223736 124.297275) (xy 208.335484 124.464517) (xy 208.502726 124.576265) (xy 208.7 124.615505) (xy 208.897275 124.576265)
+        (xy 209.064517 124.464517) (xy 209.176265 124.297275) (xy 209.2056 124.149796) (xy 209.2056 122.450205) (xy 214.1944 122.450205)
+        (xy 214.194401 124.149796) (xy 214.223736 124.297275) (xy 214.335484 124.464517) (xy 214.502726 124.576265) (xy 214.7 124.615505)
+        (xy 214.897275 124.576265) (xy 215.064517 124.464517) (xy 215.176265 124.297275) (xy 215.2056 124.149796) (xy 215.2056 122.93779)
+        (xy 215.306043 123.180279) (xy 215.519721 123.393957) (xy 215.798906 123.5096) (xy 216.101094 123.5096) (xy 216.380279 123.393957)
+        (xy 216.593957 123.180279) (xy 216.7096 122.901094) (xy 216.7096 122.598906) (xy 216.593957 122.319721) (xy 216.380279 122.106043)
+        (xy 216.101094 121.9904) (xy 215.798906 121.9904) (xy 215.519721 122.106043) (xy 215.306043 122.319721) (xy 215.2056 122.56221)
+        (xy 215.2056 122.450204) (xy 215.176265 122.302725) (xy 215.064517 122.135483) (xy 214.897274 122.023735) (xy 214.7 121.984495)
+        (xy 214.502725 122.023735) (xy 214.335483 122.135483) (xy 214.223735 122.302726) (xy 214.1944 122.450205) (xy 209.2056 122.450205)
+        (xy 209.2056 122.450204) (xy 209.176265 122.302725) (xy 209.064517 122.135483) (xy 208.897274 122.023735) (xy 208.7 121.984495)
+        (xy 208.502725 122.023735) (xy 208.335483 122.135483) (xy 208.223735 122.302726) (xy 208.1944 122.450205) (xy 203.2056 122.450205)
+        (xy 203.2056 122.450204) (xy 203.176265 122.302725) (xy 203.064517 122.135483) (xy 202.897274 122.023735) (xy 202.7 121.984495)
+        (xy 202.502725 122.023735) (xy 202.335483 122.135483) (xy 202.223735 122.302726) (xy 202.1944 122.450205) (xy 197.2056 122.450205)
+        (xy 197.2056 122.450204) (xy 197.176265 122.302725) (xy 197.064517 122.135483) (xy 196.897274 122.023735) (xy 196.7 121.984495)
+        (xy 196.502725 122.023735) (xy 196.335483 122.135483) (xy 196.223735 122.302726) (xy 196.1944 122.450205) (xy 194.05 122.450205)
+        (xy 194.05 121.162132) (xy 194.562132 120.65) (xy 215.425764 120.65)
       )
     )
     (filled_polygon
       (pts
-        (xy 206.704 145.646) (xy 207.796 145.646) (xy 207.796 145.626) (xy 208.004 145.626) (xy 208.004 145.646)
-        (xy 208.742 145.646) (xy 208.742 145.737902) (xy 208.553593 145.737902) (xy 208.274408 145.853545) (xy 208.273953 145.854)
-        (xy 208.004 145.854) (xy 208.004 145.874) (xy 207.796 145.874) (xy 207.796 145.854) (xy 206.704 145.854)
-        (xy 206.704 145.874) (xy 206.496 145.874) (xy 206.496 145.854) (xy 206.476 145.854) (xy 206.476 145.646)
-        (xy 206.496 145.646) (xy 206.496 145.626) (xy 206.704 145.626)
+        (xy 208.9065 145.646) (xy 209.696 145.646) (xy 209.696 145.626) (xy 209.904 145.626) (xy 209.904 145.646)
+        (xy 209.924 145.646) (xy 209.924 145.854) (xy 209.904 145.854) (xy 209.904 145.874) (xy 209.696 145.874)
+        (xy 209.696 145.854) (xy 208.9065 145.854) (xy 208.85 145.9105) (xy 208.7935 145.854) (xy 208.004 145.854)
+        (xy 208.004 145.874) (xy 207.796 145.874) (xy 207.796 145.854) (xy 206.704 145.854) (xy 206.704 145.874)
+        (xy 206.496 145.874) (xy 206.496 145.854) (xy 206.476 145.854) (xy 206.476 145.646) (xy 206.496 145.646)
+        (xy 206.496 145.626) (xy 206.704 145.626) (xy 206.704 145.646) (xy 207.796 145.646) (xy 207.796 145.626)
+        (xy 208.004 145.626) (xy 208.004 145.646) (xy 208.7935 145.646) (xy 208.85 145.5895)
       )
     )
     (filled_polygon
       (pts
-        (xy 209.904 145.646) (xy 209.924 145.646) (xy 209.924 145.854) (xy 209.904 145.854) (xy 209.904 145.874)
-        (xy 209.696 145.874) (xy 209.696 145.854) (xy 209.676 145.854) (xy 209.676 145.646) (xy 209.696 145.646)
-        (xy 209.696 145.626) (xy 209.904 145.626)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 208.869441 139.557633) (xy 208.931159 139.65) (xy 208.869441 139.742367) (xy 208.868406 139.747571) (xy 208.851094 139.7404)
-        (xy 208.548906 139.7404) (xy 208.269721 139.856043) (xy 208.056043 140.069721) (xy 207.9404 140.348906) (xy 207.9404 140.651094)
-        (xy 208.056043 140.930279) (xy 208.1944 141.068636) (xy 208.194401 141.531363) (xy 208.056043 141.669721) (xy 207.9404 141.948906)
-        (xy 207.9404 142.092) (xy 207.869115 142.092) (xy 207.75 142.141339) (xy 207.630885 142.092) (xy 207.3685 142.092)
-        (xy 207.204 142.2565) (xy 207.204 143.046) (xy 208.296 143.046) (xy 208.296 143.026) (xy 208.504 143.026)
-        (xy 208.504 143.046) (xy 208.524 143.046) (xy 208.524 143.254) (xy 208.504 143.254) (xy 208.504 143.274)
-        (xy 208.296 143.274) (xy 208.296 143.254) (xy 207.204 143.254) (xy 207.204 143.274) (xy 206.996 143.274)
-        (xy 206.996 143.254) (xy 205.904 143.254) (xy 205.904 143.274) (xy 205.696 143.274) (xy 205.696 143.254)
-        (xy 205.676 143.254) (xy 205.676 143.046) (xy 205.696 143.046) (xy 205.696 143.026) (xy 205.904 143.026)
-        (xy 205.904 143.046) (xy 206.996 143.046) (xy 206.996 142.2565) (xy 206.8315 142.092) (xy 206.569115 142.092)
-        (xy 206.45 142.141339) (xy 206.411914 142.125564) (xy 206.411914 141.65) (xy 206.380559 141.492367) (xy 206.291267 141.358733)
-        (xy 206.203367 141.3) (xy 206.291267 141.241267) (xy 206.380559 141.107633) (xy 206.411914 140.95) (xy 206.411914 140.489034)
-        (xy 206.588498 140.31245) (xy 206.632829 140.282829) (xy 206.75019 140.107186) (xy 206.774049 139.987239) (xy 206.807633 139.980559)
-        (xy 206.941267 139.891267) (xy 207.030559 139.757633) (xy 207.036698 139.726771) (xy 207.042367 139.730559) (xy 207.2 139.761914)
-        (xy 208 139.761914) (xy 208.157633 139.730559) (xy 208.291267 139.641267) (xy 208.355925 139.5445) (xy 208.866829 139.5445)
+        (xy 208.869441 139.557633) (xy 208.931159 139.65) (xy 208.869441 139.742367) (xy 208.838086 139.9) (xy 208.838086 140.011962)
+        (xy 208.7 139.984495) (xy 208.502725 140.023735) (xy 208.335483 140.135483) (xy 208.223735 140.302726) (xy 208.1944 140.450205)
+        (xy 208.194401 142.149796) (xy 208.195669 142.156169) (xy 208.1315 142.092) (xy 207.869115 142.092) (xy 207.75 142.141339)
+        (xy 207.630885 142.092) (xy 207.3685 142.092) (xy 207.204 142.2565) (xy 207.204 143.046) (xy 208.296 143.046)
+        (xy 208.296 143.026) (xy 208.504 143.026) (xy 208.504 143.046) (xy 208.524 143.046) (xy 208.524 143.254)
+        (xy 208.504 143.254) (xy 208.504 143.274) (xy 208.296 143.274) (xy 208.296 143.254) (xy 207.204 143.254)
+        (xy 207.204 143.274) (xy 206.996 143.274) (xy 206.996 143.254) (xy 205.904 143.254) (xy 205.904 143.274)
+        (xy 205.696 143.274) (xy 205.696 143.254) (xy 205.676 143.254) (xy 205.676 143.046) (xy 205.696 143.046)
+        (xy 205.696 143.026) (xy 205.904 143.026) (xy 205.904 143.046) (xy 206.996 143.046) (xy 206.996 142.2565)
+        (xy 206.8315 142.092) (xy 206.569115 142.092) (xy 206.45 142.141339) (xy 206.411914 142.125564) (xy 206.411914 141.65)
+        (xy 206.380559 141.492367) (xy 206.291267 141.358733) (xy 206.203367 141.3) (xy 206.291267 141.241267) (xy 206.380559 141.107633)
+        (xy 206.411914 140.95) (xy 206.411914 140.489034) (xy 206.588498 140.31245) (xy 206.632829 140.282829) (xy 206.75019 140.107186)
+        (xy 206.774049 139.987239) (xy 206.807633 139.980559) (xy 206.941267 139.891267) (xy 207.030559 139.757633) (xy 207.036698 139.726771)
+        (xy 207.042367 139.730559) (xy 207.2 139.761914) (xy 208 139.761914) (xy 208.157633 139.730559) (xy 208.291267 139.641267)
+        (xy 208.355925 139.5445) (xy 208.866829 139.5445)
       )
     )
     (filled_polygon
@@ -2335,49 +2017,1883 @@
       )
     )
   )
-  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D568978) (hatch edge 0.508)
+  (zone (net 20) (net_name /RX4) (layer F.Cu) (tstamp 5D972D6B) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 211.7 144.5) (xy 214.5 147.3) (xy 211.7 150.1) (xy 208.9 147.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 214.287868 147.3) (xy 211.7 149.887868) (xy 209.112132 147.3) (xy 211.7 144.712132)
+        (xy 240.35 146.65) (xy 243.15 149.45) (xy 240.35 152.25) (xy 237.55 149.45)
       )
     )
   )
-  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D568975) (hatch edge 0.508)
+  (zone (net 25) (net_name /TX3) (layer F.Cu) (tstamp 5D972D68) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 196.7 141.5) (xy 199.5 144.3) (xy 196.7 147.1) (xy 193.9 144.3)
-      )
-    )
-    (filled_polygon
-      (pts
-        (xy 199.287868 144.3) (xy 196.818868 146.769) (xy 196.581132 146.769) (xy 194.112132 144.3) (xy 196.581132 141.831)
-        (xy 196.818868 141.831)
+        (xy 225.35 143.65) (xy 228.15 146.45) (xy 225.35 149.25) (xy 222.55 146.45)
       )
     )
   )
-  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D568A0E) (hatch edge 0.508)
+  (zone (net 21) (net_name /RX5) (layer F.Cu) (tstamp 5D972DD7) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.3)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 199.7 150.5) (xy 202.5 153.3) (xy 199.7 156.1) (xy 196.9 153.3)
+        (xy 228.35 152.65) (xy 231.15 155.45) (xy 228.35 158.25) (xy 225.55 155.45)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971E11) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 152.95) (xy 215.75 154.8) (xy 213.9 156.65) (xy 212.05 154.8)
       )
     )
     (filled_polygon
       (pts
-        (xy 202.287868 153.3) (xy 199.7 155.887868) (xy 197.112132 153.3) (xy 199.7 150.712132)
+        (xy 215.537868 154.8) (xy 213.9 156.437868) (xy 212.262132 154.8) (xy 213.9 153.162132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971E10) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 152.95) (xy 203.45 154.8) (xy 201.6 156.65) (xy 199.75 154.8)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 154.8) (xy 202.009217 156.028651) (xy 201.979309 156.0346) (xy 201.979306 156.0346) (xy 201.844577 156.061399)
+        (xy 201.817669 155.996437) (xy 201.593992 155.963086) (xy 201.518542 156.038536) (xy 201.371464 155.891458) (xy 201.446914 155.816008)
+        (xy 201.413563 155.592331) (xy 200.982002 155.438062) (xy 200.618177 155.456045) (xy 199.962132 154.8) (xy 201.6 153.162132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971E0F) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 152.95) (xy 207.55 154.8) (xy 205.7 156.65) (xy 203.85 154.8)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 154.8) (xy 205.7 156.437868) (xy 204.062132 154.8) (xy 205.7 153.162132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971E0D) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 152.95) (xy 199.35 154.8) (xy 197.5 156.65) (xy 195.65 154.8)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 154.8) (xy 197.5 156.437868) (xy 195.862132 154.8) (xy 197.5 153.162132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 146.8) (xy 197.3 148.65) (xy 195.45 150.5) (xy 193.6 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 148.65) (xy 195.45 150.287868) (xy 193.812132 148.65) (xy 195.45 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 148.85) (xy 211.65 150.7) (xy 209.8 152.55) (xy 207.95 150.7)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 150.7) (xy 209.8 152.337868) (xy 208.162132 150.7) (xy 209.8 149.062132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971E0E) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 152.95) (xy 211.65 154.8) (xy 209.8 156.65) (xy 207.95 154.8)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 154.8) (xy 209.8 156.437868) (xy 208.162132 154.8) (xy 209.8 153.162132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 144.75) (xy 215.75 146.6) (xy 213.9 148.45) (xy 212.05 146.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 146.6) (xy 213.9 148.237868) (xy 212.262132 146.6) (xy 213.9 144.962132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBB) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 136.55) (xy 203.45 138.4) (xy 201.6 140.25) (xy 199.75 138.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 138.4) (xy 201.6 140.037868) (xy 199.962132 138.4) (xy 201.6 136.762132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC1) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 146.8) (xy 213.7 148.65) (xy 211.85 150.5) (xy 210 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 148.65) (xy 211.85 150.287868) (xy 210.212132 148.65) (xy 211.85 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC0) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 146.8) (xy 205.5 148.65) (xy 203.65 150.5) (xy 201.8 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 148.65) (xy 203.65 150.287868) (xy 202.012132 148.65) (xy 203.65 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBF) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 146.8) (xy 201.4 148.65) (xy 199.55 150.5) (xy 197.7 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 148.65) (xy 199.55 150.287868) (xy 197.912132 148.65) (xy 199.55 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBE) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 150.9) (xy 197.3 152.75) (xy 195.45 154.6) (xy 193.6 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 152.75) (xy 195.45 154.387868) (xy 193.812132 152.75) (xy 195.45 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 150.9) (xy 205.5 152.75) (xy 203.65 154.6) (xy 201.8 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 152.75) (xy 203.65 154.387868) (xy 202.012132 152.75) (xy 203.65 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 136.55) (xy 215.75 138.4) (xy 213.9 140.25) (xy 212.05 138.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 138.4) (xy 213.9 140.037868) (xy 212.262132 138.4) (xy 213.9 136.762132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBE) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 142.7) (xy 197.3 144.55) (xy 195.45 146.4) (xy 193.6 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 144.55) (xy 195.45 146.187868) (xy 193.812132 144.55) (xy 195.45 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB9) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 140.65) (xy 207.55 142.5) (xy 205.7 144.35) (xy 203.85 142.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 142.5) (xy 205.7 144.137868) (xy 204.062132 142.5) (xy 205.7 140.862132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBD) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 146.8) (xy 217.8 148.65) (xy 215.95 150.5) (xy 214.1 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 148.65) (xy 215.95 150.287868) (xy 214.312132 148.65) (xy 215.95 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 150.9) (xy 209.6 152.75) (xy 207.75 154.6) (xy 205.9 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 152.75) (xy 207.75 154.387868) (xy 206.112132 152.75) (xy 207.75 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 150.9) (xy 217.8 152.75) (xy 215.95 154.6) (xy 214.1 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 152.75) (xy 215.95 154.387868) (xy 214.312132 152.75) (xy 215.95 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 138.6) (xy 209.6 140.45) (xy 207.75 142.3) (xy 205.9 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 140.45) (xy 207.75 142.087868) (xy 206.112132 140.45) (xy 207.75 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 140.65) (xy 211.65 142.5) (xy 209.8 144.35) (xy 207.95 142.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 142.5) (xy 209.8 144.137868) (xy 208.162132 142.5) (xy 209.8 140.862132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC0) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 138.6) (xy 205.5 140.45) (xy 203.65 142.3) (xy 201.8 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 140.45) (xy 203.65 142.087868) (xy 202.012132 140.45) (xy 203.65 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBC) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 148.85) (xy 215.75 150.7) (xy 213.9 152.55) (xy 212.05 150.7)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 150.7) (xy 213.9 152.337868) (xy 212.262132 150.7) (xy 213.9 149.062132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBB) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 144.75) (xy 203.45 146.6) (xy 201.6 148.45) (xy 199.75 146.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 146.6) (xy 201.6 148.237868) (xy 199.962132 146.6) (xy 201.6 144.962132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 150.9) (xy 213.7 152.75) (xy 211.85 154.6) (xy 210 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 152.75) (xy 211.85 154.387868) (xy 210.212132 152.75) (xy 211.85 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 138.6) (xy 197.3 140.45) (xy 195.45 142.3) (xy 193.6 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 140.45) (xy 195.45 142.087868) (xy 193.812132 140.45) (xy 195.45 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 140.65) (xy 203.45 142.5) (xy 201.6 144.35) (xy 199.75 142.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 142.5) (xy 201.6 144.137868) (xy 199.962132 142.5) (xy 201.6 140.862132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC1) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 138.6) (xy 213.7 140.45) (xy 211.85 142.3) (xy 210 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 140.45) (xy 211.85 142.087868) (xy 210.212132 140.45) (xy 211.85 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBF) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 138.6) (xy 201.4 140.45) (xy 199.55 142.3) (xy 197.7 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 140.45) (xy 199.55 142.087868) (xy 197.912132 140.45) (xy 199.55 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBC) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 140.65) (xy 215.75 142.5) (xy 213.9 144.35) (xy 212.05 142.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 142.5) (xy 213.9 144.137868) (xy 212.262132 142.5) (xy 213.9 140.862132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB9) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 148.85) (xy 207.55 150.7) (xy 205.7 152.55) (xy 203.85 150.7)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 150.7) (xy 205.7 152.337868) (xy 204.062132 150.7) (xy 205.7 149.062132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC2) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 150.9) (xy 201.4 152.75) (xy 199.55 154.6) (xy 197.7 152.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 152.75) (xy 199.55 154.387868) (xy 197.912132 152.75) (xy 199.55 151.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 144.75) (xy 199.35 146.6) (xy 197.5 148.45) (xy 195.65 146.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 146.6) (xy 197.5 148.237868) (xy 195.862132 146.6) (xy 197.5 144.962132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 144.75) (xy 211.65 146.6) (xy 209.8 148.45) (xy 207.95 146.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 146.6) (xy 209.8 148.237868) (xy 208.162132 146.6) (xy 209.8 144.962132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 142.7) (xy 209.6 144.55) (xy 207.75 146.4) (xy 205.9 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 144.55) (xy 207.75 146.187868) (xy 206.112132 144.55) (xy 207.75 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 148.85) (xy 203.45 150.7) (xy 201.6 152.55) (xy 199.75 150.7)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 150.7) (xy 201.6 152.337868) (xy 199.962132 150.7) (xy 201.6 149.062132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBA) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 144.75) (xy 207.55 146.6) (xy 205.7 148.45) (xy 203.85 146.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 146.6) (xy 205.7 148.237868) (xy 204.062132 146.6) (xy 205.7 144.962132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC2) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 142.7) (xy 201.4 144.55) (xy 199.55 146.4) (xy 197.7 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 144.55) (xy 199.55 146.187868) (xy 197.912132 144.55) (xy 199.55 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D7E) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 122.2) (xy 197.3 124.05) (xy 195.45 125.9) (xy 193.6 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 124.05) (xy 195.45 125.687868) (xy 193.812132 124.05) (xy 195.45 122.412132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBA) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 136.55) (xy 207.55 138.4) (xy 205.7 140.25) (xy 203.85 138.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 138.4) (xy 205.7 140.037868) (xy 204.062132 138.4) (xy 205.7 136.762132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 148.85) (xy 199.35 150.7) (xy 197.5 152.55) (xy 195.65 150.7)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 150.7) (xy 197.5 152.337868) (xy 195.862132 150.7) (xy 197.5 149.062132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 146.8) (xy 209.6 148.65) (xy 207.75 150.5) (xy 205.9 148.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 148.65) (xy 207.75 150.287868) (xy 206.112132 148.65) (xy 207.75 147.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBD) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 138.6) (xy 217.8 140.45) (xy 215.95 142.3) (xy 214.1 140.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 140.45) (xy 215.95 142.087868) (xy 214.312132 140.45) (xy 215.95 138.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 140.65) (xy 199.35 142.5) (xy 197.5 144.35) (xy 195.65 142.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 142.5) (xy 197.5 144.137868) (xy 195.862132 142.5) (xy 197.5 140.862132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 130.4) (xy 197.3 132.25) (xy 195.45 134.1) (xy 193.6 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 132.25) (xy 195.45 133.887868) (xy 193.812132 132.25) (xy 195.45 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 132.45) (xy 211.65 134.3) (xy 209.8 136.15) (xy 207.95 134.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 134.3) (xy 209.8 135.937868) (xy 208.162132 134.3) (xy 209.8 132.662132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 132.45) (xy 199.35 134.3) (xy 197.5 136.15) (xy 195.65 134.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 134.3) (xy 197.5 135.937868) (xy 195.862132 134.3) (xy 197.5 132.662132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC2) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 134.5) (xy 201.4 136.35) (xy 199.55 138.2) (xy 197.7 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 136.35) (xy 199.55 137.987868) (xy 197.912132 136.35) (xy 199.55 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC1) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 130.4) (xy 213.7 132.25) (xy 211.85 134.1) (xy 210 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 132.25) (xy 211.85 133.887868) (xy 210.212132 132.25) (xy 211.85 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBF) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 130.4) (xy 201.4 132.25) (xy 199.55 134.1) (xy 197.7 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 132.25) (xy 199.55 133.887868) (xy 197.912132 132.25) (xy 199.55 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBE) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 134.5) (xy 197.3 136.35) (xy 195.45 138.2) (xy 193.6 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 136.35) (xy 195.45 137.987868) (xy 193.812132 136.35) (xy 195.45 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBA) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 128.35) (xy 207.55 130.2) (xy 205.7 132.05) (xy 203.85 130.2)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 130.2) (xy 205.7 131.837868) (xy 204.062132 130.2) (xy 205.7 128.562132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D9E) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 124.25) (xy 211.65 126.1) (xy 209.8 127.95) (xy 207.95 126.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 126.1) (xy 209.8 127.737868) (xy 208.162132 126.1) (xy 209.8 124.462132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D9D) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 124.25) (xy 199.35 126.1) (xy 197.5 127.95) (xy 195.65 126.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 126.1) (xy 197.5 127.737868) (xy 195.862132 126.1) (xy 197.5 124.462132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 134.5) (xy 205.5 136.35) (xy 203.65 138.2) (xy 201.8 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 136.35) (xy 203.65 137.987868) (xy 202.012132 136.35) (xy 203.65 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8E) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 122.2) (xy 209.6 124.05) (xy 207.75 125.9) (xy 205.9 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 124.05) (xy 207.75 125.687868) (xy 206.112132 124.05) (xy 207.75 122.412132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA0) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 124.25) (xy 203.45 126.1) (xy 201.6 127.95) (xy 199.75 126.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 126.1) (xy 201.6 127.737868) (xy 199.962132 126.1) (xy 201.6 124.462132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 134.5) (xy 213.7 136.35) (xy 211.85 138.2) (xy 210 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 136.35) (xy 211.85 137.987868) (xy 210.212132 136.35) (xy 211.85 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8D) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 120.15) (xy 215.75 122) (xy 213.9 123.85) (xy 212.05 122)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 122) (xy 213.9 123.637868) (xy 212.262132 122) (xy 213.9 120.362132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBC) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 132.45) (xy 215.75 134.3) (xy 213.9 136.15) (xy 212.05 134.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 134.3) (xy 213.9 135.937868) (xy 212.262132 134.3) (xy 213.9 132.662132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 136.55) (xy 199.35 138.4) (xy 197.5 140.25) (xy 195.65 138.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 138.4) (xy 197.5 140.037868) (xy 195.862132 138.4) (xy 197.5 136.762132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA2) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 126.3) (xy 201.4 128.15) (xy 199.55 130) (xy 197.7 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 128.15) (xy 199.55 129.787868) (xy 197.912132 128.15) (xy 199.55 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB9) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 132.45) (xy 207.55 134.3) (xy 205.7 136.15) (xy 203.85 134.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 134.3) (xy 205.7 135.937868) (xy 204.062132 134.3) (xy 205.7 132.662132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 134.5) (xy 217.8 136.35) (xy 215.95 138.2) (xy 214.1 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 136.35) (xy 215.95 137.987868) (xy 214.312132 136.35) (xy 215.95 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 128.35) (xy 199.35 130.2) (xy 197.5 132.05) (xy 195.65 130.2)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 130.2) (xy 197.5 131.837868) (xy 195.862132 130.2) (xy 197.5 128.562132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8F) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 122.2) (xy 213.7 124.05) (xy 211.85 125.9) (xy 210 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 124.05) (xy 211.85 125.687868) (xy 210.212132 124.05) (xy 211.85 122.412132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8F) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 122.2) (xy 205.5 124.05) (xy 203.65 125.9) (xy 201.8 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 124.05) (xy 203.65 125.687868) (xy 202.012132 124.05) (xy 203.65 122.412132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D83) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 199.55 122.2) (xy 201.4 124.05) (xy 199.55 125.9) (xy 197.7 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 201.187868 124.05) (xy 199.55 125.687868) (xy 197.912132 124.05) (xy 199.55 122.412132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 195.45 126.3) (xy 197.3 128.15) (xy 195.45 130) (xy 193.6 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 197.087868 128.15) (xy 195.45 129.787868) (xy 193.812132 128.15) (xy 195.45 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8E) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 122.2) (xy 217.8 124.05) (xy 215.95 125.9) (xy 214.1 124.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 124.05) (xy 215.95 125.687868) (xy 214.312132 124.05) (xy 215.269668 123.092464) (xy 215.306043 123.180279)
+        (xy 215.519721 123.393957) (xy 215.798906 123.5096) (xy 216.101094 123.5096) (xy 216.380279 123.393957) (xy 216.593957 123.180279)
+        (xy 216.630332 123.092464)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 124.25) (xy 215.75 126.1) (xy 213.9 127.95) (xy 212.05 126.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 126.1) (xy 213.9 127.737868) (xy 212.262132 126.1) (xy 213.9 124.462132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D98) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 120.15) (xy 203.45 122) (xy 201.6 123.85) (xy 199.75 122)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 122) (xy 201.6 123.637868) (xy 199.962132 122) (xy 201.6 120.362132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 136.55) (xy 211.65 138.4) (xy 209.8 140.25) (xy 207.95 138.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 138.4) (xy 209.8 140.037868) (xy 208.162132 138.4) (xy 209.8 136.762132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D8D) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 120.15) (xy 207.55 122) (xy 205.7 123.85) (xy 203.85 122)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 122) (xy 205.7 123.637868) (xy 204.062132 122) (xy 205.7 120.362132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 142.7) (xy 217.8 144.55) (xy 215.95 146.4) (xy 214.1 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 144.55) (xy 215.95 146.187868) (xy 214.312132 144.55) (xy 215.95 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 132.45) (xy 203.45 134.3) (xy 201.6 136.15) (xy 199.75 134.3)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 134.3) (xy 201.6 135.937868) (xy 199.962132 134.3) (xy 201.6 132.662132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.9 128.35) (xy 215.75 130.2) (xy 213.9 132.05) (xy 212.05 130.2)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 215.537868 130.2) (xy 213.9 131.837868) (xy 212.262132 130.2) (xy 213.9 128.562132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D9F) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.7 124.25) (xy 207.55 126.1) (xy 205.7 127.95) (xy 203.85 126.1)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.337868 126.1) (xy 205.7 127.737868) (xy 204.062132 126.1) (xy 205.7 124.462132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC0) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 130.4) (xy 205.5 132.25) (xy 203.65 134.1) (xy 201.8 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 132.25) (xy 203.65 133.887868) (xy 202.012132 132.25) (xy 203.65 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA6) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 126.3) (xy 209.6 128.15) (xy 207.75 130) (xy 205.9 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 128.15) (xy 207.75 129.787868) (xy 206.112132 128.15) (xy 207.75 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 142.7) (xy 213.7 144.55) (xy 211.85 146.4) (xy 210 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 144.55) (xy 211.85 146.187868) (xy 210.212132 144.55) (xy 211.85 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 142.7) (xy 205.5 144.55) (xy 203.65 146.4) (xy 201.8 144.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 144.55) (xy 203.65 146.187868) (xy 202.012132 144.55) (xy 203.65 142.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB8) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 134.5) (xy 209.6 136.35) (xy 207.75 138.2) (xy 205.9 136.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 136.35) (xy 207.75 137.987868) (xy 206.112132 136.35) (xy 207.75 134.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D98) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 120.15) (xy 211.65 122) (xy 209.8 123.85) (xy 207.95 122)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 122) (xy 209.8 123.637868) (xy 208.162132 122) (xy 209.8 120.362132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DB7) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.8 128.35) (xy 211.65 130.2) (xy 209.8 132.05) (xy 207.95 130.2)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.437868 130.2) (xy 209.8 131.837868) (xy 208.162132 130.2) (xy 209.8 128.562132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA1) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 126.3) (xy 217.8 128.15) (xy 215.95 130) (xy 214.1 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 128.15) (xy 215.95 129.787868) (xy 214.312132 128.15) (xy 215.95 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DC5) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 207.75 130.4) (xy 209.6 132.25) (xy 207.75 134.1) (xy 205.9 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.387868 132.25) (xy 207.75 133.887868) (xy 206.112132 132.25) (xy 207.75 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA4) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 211.85 126.3) (xy 213.7 128.15) (xy 211.85 130) (xy 210 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.487868 128.15) (xy 211.85 129.787868) (xy 210.212132 128.15) (xy 211.85 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBB) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.6 128.35) (xy 203.45 130.2) (xy 201.6 132.05) (xy 199.75 130.2)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.237868 130.2) (xy 201.6 131.837868) (xy 199.962132 130.2) (xy 201.6 128.562132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DBD) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 215.95 130.4) (xy 217.8 132.25) (xy 215.95 134.1) (xy 214.1 132.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.587868 132.25) (xy 215.95 133.887868) (xy 214.312132 132.25) (xy 215.95 130.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971DA3) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 203.65 126.3) (xy 205.5 128.15) (xy 203.65 130) (xy 201.8 128.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.287868 128.15) (xy 203.65 129.787868) (xy 202.012132 128.15) (xy 203.65 126.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D971D83) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.5 120.15) (xy 199.35 122) (xy 197.5 123.85) (xy 195.65 122)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.137868 122) (xy 197.5 123.637868) (xy 195.862132 122) (xy 197.5 120.362132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972470) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 120.15) (xy 195.25 122) (xy 193.4 123.85) (xy 193.4 122.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 122) (xy 193.55 123.487868) (xy 193.55 121.019751) (xy 193.80381 120.765942)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972475) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 124.25) (xy 195.25 126.1) (xy 193.4 127.95) (xy 193.4 126.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 126.1) (xy 193.55 127.587868) (xy 193.55 124.612132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 128.35) (xy 195.25 130.2) (xy 193.4 132.05) (xy 193.4 130.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 130.2) (xy 193.55 131.687868) (xy 193.55 128.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 132.45) (xy 195.25 134.3) (xy 193.4 136.15) (xy 193.4 134.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 134.3) (xy 193.55 135.787868) (xy 193.55 132.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 136.55) (xy 195.25 138.4) (xy 193.4 140.25) (xy 193.4 138.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 138.4) (xy 193.55 139.887868) (xy 193.55 136.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.4 140.65) (xy 195.25 142.5) (xy 193.4 144.35) (xy 193.4 142.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.037868 142.5) (xy 193.55 143.987868) (xy 193.55 141.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.35 144.75) (xy 195.2 146.6) (xy 193.35 148.45) (xy 193.35 146.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 194.987868 146.6) (xy 193.5 148.087868) (xy 193.5 145.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.35 148.85) (xy 195.2 150.7) (xy 193.35 152.55) (xy 193.35 150.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 194.987868 150.7) (xy 193.5 152.187868) (xy 193.5 149.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.6 156.85) (xy 195.45 155) (xy 197.3 156.85) (xy 195.5 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 196.937868 156.7) (xy 194.139273 156.7) (xy 194.050703 156.61143) (xy 195.45 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.7 156.85) (xy 199.55 155) (xy 201.4 156.85) (xy 199.6 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 200.238931 155.901063) (xy 200.101458 156.038536) (xy 200.026008 155.963086) (xy 199.802331 155.996437) (xy 199.648062 156.427998)
+        (xy 199.661506 156.7) (xy 199.310148 156.7) (xy 198.763296 156.153149) (xy 198.670792 156.09134) (xy 199.55 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.8 156.85) (xy 203.65 155) (xy 205.5 156.85) (xy 203.7 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 205.137868 156.7) (xy 204.5692 156.7) (xy 204.5692 156.414506) (xy 204.453557 156.135321) (xy 204.239879 155.921643)
+        (xy 203.960694 155.806) (xy 203.658506 155.806) (xy 203.379321 155.921643) (xy 203.266364 156.0346) (xy 202.827532 156.0346)
+        (xy 203.65 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.9 156.85) (xy 207.75 155) (xy 209.6 156.85) (xy 207.8 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 209.237868 156.7) (xy 206.262132 156.7) (xy 207.75 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 210 156.85) (xy 211.85 155) (xy 213.7 156.85) (xy 211.9 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 213.337868 156.7) (xy 210.362132 156.7) (xy 211.85 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 214.1 156.85) (xy 215.95 155) (xy 217.8 156.85) (xy 216 156.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.437868 156.7) (xy 214.462132 156.7) (xy 215.95 155.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 156.65) (xy 216.15 154.8) (xy 218 152.95) (xy 218 154.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.705801 156.143669) (xy 216.362132 154.8) (xy 217.7058 153.456332)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 152.55) (xy 216.15 150.7) (xy 218 148.85) (xy 218 150.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 151.552789) (xy 217.743978 151.711463) (xy 217.720303 151.830486) (xy 217.69291 151.9682) (xy 217.7058 152.033002)
+        (xy 217.7058 152.043668) (xy 216.362132 150.7) (xy 217.85 149.212132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 148.45) (xy 216.15 146.6) (xy 218 144.75) (xy 218 146.55)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 148.087868) (xy 216.362132 146.6) (xy 217.85 145.112132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 144.35) (xy 216.15 142.5) (xy 218 140.65) (xy 218 142.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 143.987868) (xy 216.362132 142.5) (xy 217.85 141.012132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 140.25) (xy 216.15 138.4) (xy 218 136.55) (xy 218 138.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 139.887868) (xy 216.362132 138.4) (xy 217.85 136.912132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 136.15) (xy 216.15 134.3) (xy 218 132.45) (xy 218 134.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 135.787868) (xy 216.362132 134.3) (xy 217.85 132.812132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 132.05) (xy 216.15 130.2) (xy 218 128.35) (xy 218 130.15)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 131.687868) (xy 216.362132 130.2) (xy 217.85 128.712132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 127.95) (xy 216.15 126.1) (xy 218 124.25) (xy 218 126.05)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 127.587868) (xy 216.362132 126.1) (xy 217.85 124.612132)
+      )
+    )
+  )
+  (zone (net 22) (net_name /TX0) (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 217.8 119.9) (xy 215.95 121.75) (xy 214.1 119.9) (xy 215.9 119.9)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 213.7 119.9) (xy 211.85 121.75) (xy 210 119.9) (xy 211.8 119.9)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 211.85 121.537868) (xy 210.362132 120.05) (xy 213.337868 120.05)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 209.6 119.95) (xy 207.75 121.8) (xy 205.9 119.95) (xy 207.7 119.95)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 207.75 121.587868) (xy 206.262132 120.1) (xy 209.237868 120.1)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 205.5 119.95) (xy 203.65 121.8) (xy 201.8 119.95) (xy 203.6 119.95)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 203.65 121.587868) (xy 202.162132 120.1) (xy 205.137868 120.1)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972478) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 201.4 119.95) (xy 199.55 121.8) (xy 197.7 119.95) (xy 199.5 119.95)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 199.55 121.587868) (xy 198.062132 120.1) (xy 201.037868 120.1)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D972477) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 197.3 119.95) (xy 195.45 121.8) (xy 193.6 119.95) (xy 195.4 119.95)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195.45 121.587868) (xy 194.215942 120.35381) (xy 194.469752 120.1) (xy 196.937868 120.1)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D9724BD) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 218 123.85) (xy 216.15 122) (xy 218 120.15) (xy 218 121.95)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 217.85 123.487868) (xy 216.362132 122) (xy 217.85 120.512132)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5D9724BD) (hatch edge 0.508)
+    (connect_pads (clearance 0.254))
+    (min_thickness 0.3)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 193.35 152.95) (xy 195.2 154.8) (xy 193.35 156.65) (xy 193.35 154.85)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 194.987868 154.8) (xy 194.202251 155.585617) (xy 194.188029 155.298458) (xy 194.056617 154.981201) (xy 193.833071 154.948007)
+        (xy 193.757645 155.023434) (xy 193.610567 154.876356) (xy 193.685993 154.800929) (xy 193.652799 154.577383) (xy 193.5 154.522779)
+        (xy 193.5 153.312132)
       )
     )
   )
