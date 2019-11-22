@@ -264,7 +264,7 @@ F 3 "" H 950 2700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 1450 4850 2    60   ~ 12
-ARM SWD headers
+ARM SWD header
 Text Notes 650  1500 0    60   ~ 12
 Pogo pin connector
 Text Notes 650  1600 0    40   ~ 0
@@ -462,8 +462,6 @@ F 3 "" H 6250 1750 60  0001 C CNN
 	1    6250 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 1650 6600 1650
 Text Label 6900 1650 2    50   ~ 0
 NRST
 $Comp
@@ -602,22 +600,9 @@ F 3 "" H 7700 2050 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 6900 2350
-$Comp
-L ugl:TEST_POINT TP_RDY1
-U 1 1 5D336C6F
-P 6650 2250
-F 0 "TP_RDY1" V 6650 2500 40  0000 C CNN
-F 1 "RDY" H 6650 2190 40  0001 C CNN
-F 2 "ugl:Test_Point" H 6650 2250 60  0001 C CNN
-F 3 "" H 6650 2250 60  0001 C CNN
-	1    6650 2250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6650 2250 6900 2250
 Text Label 6900 2250 2    40   ~ 0
 RDY
-Text Notes 5150 4900 2    60   ~ 12
+Text Notes 7650 4900 2    60   ~ 12
 Voltage regulator
 Text Notes 5150 1200 2    60   ~ 12
 Touch controller
@@ -637,11 +622,6 @@ F 3 "" H 1450 3200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1450 3200
-NoConn ~ 7700 2950
-NoConn ~ 7700 3050
-NoConn ~ 7700 3150
-NoConn ~ 7700 3250
-NoConn ~ 7700 3350
 NoConn ~ 6900 3150
 NoConn ~ 6900 3250
 $Comp
@@ -655,39 +635,31 @@ F 3 "" H 1550 6100 60  0000 C CNN
 	1    1550 6300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L ugl:TEST_POINT TP_PGM1
-U 1 1 5D2EEA9E
-P 6900 1750
-F 0 "TP_PGM1" V 6900 1853 40  0000 L CNN
-F 1 "PGM" H 6900 1690 40  0001 C CNN
-F 2 "ugl:Test_Point" H 6900 1750 60  0001 C CNN
-F 3 "" H 6900 1750 60  0001 C CNN
-	1    6900 1750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ugl:TEST_POINT TP_NRST1
-U 1 1 5D2F3ABE
-P 6600 1650
-F 0 "TP_NRST1" V 6600 1753 40  0000 L CNN
-F 1 "NRST" H 6600 1590 40  0001 C CNN
-F 2 "ugl:Test_Point" H 6600 1650 60  0001 C CNN
-F 3 "" H 6600 1650 60  0001 C CNN
-	1    6600 1650
-	1    0    0    -1  
-$EndComp
-Connection ~ 6600 1650
-Wire Wire Line
-	6600 1650 6900 1650
 NoConn ~ 1900 6250
 NoConn ~ 1900 6350
-NoConn ~ 1900 6550
-NoConn ~ 1900 6650
-NoConn ~ 1900 6750
 Text Label 1900 6050 0    40   ~ 0
 SCL
 NoConn ~ 1900 6450
 Text Label 1900 5950 0    40   ~ 0
 VCC_BOTTOM
+Text Label 1900 6650 0    50   ~ 0
+NRST
+Text Label 1900 6550 0    40   ~ 0
+RDY
+Wire Wire Line
+	6450 1650 6900 1650
+Text Label 6900 1750 2    50   ~ 0
+PGM
+Text Label 1900 6750 0    50   ~ 0
+PGM
+Text Label 7700 2950 0    50   ~ 0
+TX4
+Text Label 7700 3050 0    50   ~ 0
+TX5
+Text Label 7700 3150 0    50   ~ 0
+TX6
+Text Label 7700 3250 0    50   ~ 0
+TX7
+Text Label 7700 3350 0    50   ~ 0
+TX8
 $EndSCHEMATC
