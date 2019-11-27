@@ -642,15 +642,15 @@ SCL
 NoConn ~ 1900 6450
 Text Label 1900 5950 0    40   ~ 0
 VCC_BOTTOM
-Text Label 1900 6650 0    50   ~ 0
+Text Label 3950 6900 0    50   ~ 0
 NRST
-Text Label 1900 6550 0    40   ~ 0
+Text Label 3950 6200 0    40   ~ 0
 RDY
 Wire Wire Line
 	6450 1650 6900 1650
 Text Label 6900 1750 2    50   ~ 0
 PGM
-Text Label 1900 6750 0    50   ~ 0
+Text Label 3950 7000 0    50   ~ 0
 PGM
 Text Label 7700 2950 0    50   ~ 0
 TX4
@@ -662,4 +662,52 @@ Text Label 7700 3250 0    50   ~ 0
 TX7
 Text Label 7700 3350 0    50   ~ 0
 TX8
+$Comp
+L ugl:CONN_20 P3
+U 1 1 5DDE8914
+P 3600 6250
+F 0 "P3" V 3550 6250 50  0000 C CNN
+F 1 "CONN_20" V 3650 6250 50  0000 C CNN
+F 2 "ugl:MC-254-20-00-ST-SMD" H 3600 6550 60  0001 C CNN
+F 3 "" H 3600 6550 60  0000 C CNN
+	1    3600 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDE8CC0
+P 3950 5300
+F 0 "#PWR?" H 3950 5300 30  0001 C CNN
+F 1 "GND" H 3950 5230 30  0001 C CNN
+F 2 "" H 3950 5300 60  0001 C CNN
+F 3 "" H 3950 5300 60  0001 C CNN
+	1    3950 5300
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 5500 0    40   ~ 0
+VCC_BOTTOM
+Text Label 3950 5900 0    40   ~ 0
+SDA
+Text Label 3950 6100 0    40   ~ 0
+SCL
+NoConn ~ 1900 6550
+NoConn ~ 1900 6650
+NoConn ~ 1900 6750
+NoConn ~ 3950 5400
+NoConn ~ 3950 5600
+NoConn ~ 3950 5700
+NoConn ~ 3950 5800
+NoConn ~ 3950 6000
+NoConn ~ 3950 6300
+NoConn ~ 3950 6400
+NoConn ~ 3950 6500
+NoConn ~ 3950 6600
+NoConn ~ 3950 6700
+NoConn ~ 3950 6800
+NoConn ~ 3950 7100
+NoConn ~ 3950 7200
+Text Notes 4050 4850 2    60   ~ 12
+Config header
+Wire Notes Line
+	4700 4300 4700 7750
 $EndSCHEMATC
