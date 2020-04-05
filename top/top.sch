@@ -461,7 +461,7 @@ F 3 "" H 6250 1750 60  0001 C CNN
 	1    6250 1750
 	1    0    0    -1  
 $EndComp
-Text Label 6900 1650 2    50   ~ 0
+Text Label 6900 1650 2    40   ~ 0
 NRST
 $Comp
 L power:GND #PWR0105
@@ -476,25 +476,25 @@ F 3 "" H 7800 3650 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	7800 3550 7800 3650
-Text Label 6900 2550 2    50   ~ 0
+Text Label 6900 2550 2    40   ~ 0
 RX0
-Text Label 6900 2650 2    50   ~ 0
+Text Label 6900 2650 2    40   ~ 0
 RX1
-Text Label 6900 2750 2    50   ~ 0
+Text Label 6900 2750 2    40   ~ 0
 RX2
-Text Label 6900 2850 2    50   ~ 0
+Text Label 6900 2850 2    40   ~ 0
 RX3
-Text Label 6900 2950 2    50   ~ 0
+Text Label 6900 2950 2    40   ~ 0
 RX4
-Text Label 6900 3050 2    50   ~ 0
+Text Label 6900 3050 2    40   ~ 0
 RX5
-Text Label 7700 2550 0    50   ~ 0
+Text Label 7700 2550 0    40   ~ 0
 TX0
-Text Label 7700 2650 0    50   ~ 0
+Text Label 7700 2650 0    40   ~ 0
 TX1
-Text Label 7700 2750 0    50   ~ 0
+Text Label 7700 2750 0    40   ~ 0
 TX2
-Text Label 7700 2850 0    50   ~ 0
+Text Label 7700 2850 0    40   ~ 0
 TX3
 $Comp
 L ugl:R R2
@@ -641,25 +641,25 @@ SCL
 NoConn ~ 1900 6450
 Text Label 1900 5950 0    40   ~ 0
 VCC_BOTTOM
-Text Label 3950 6900 0    50   ~ 0
+Text Label 3950 6900 0    40   ~ 0
 NRST
 Text Label 3950 6200 0    40   ~ 0
 RDY
 Wire Wire Line
 	6450 1650 6900 1650
-Text Label 6900 1750 2    50   ~ 0
+Text Label 6900 1750 2    40   ~ 0
 PGM
-Text Label 3950 7000 0    50   ~ 0
+Text Label 3950 7000 0    40   ~ 0
 PGM
-Text Label 7700 2950 0    50   ~ 0
+Text Label 7700 2950 0    40   ~ 0
 TX4
-Text Label 7700 3050 0    50   ~ 0
+Text Label 7700 3050 0    40   ~ 0
 TX5
-Text Label 7700 3150 0    50   ~ 0
+Text Label 7700 3150 0    40   ~ 0
 TX6
-Text Label 7700 3250 0    50   ~ 0
+Text Label 7700 3250 0    40   ~ 0
 TX7
-Text Label 7700 3350 0    50   ~ 0
+Text Label 7700 3350 0    40   ~ 0
 TX8
 $Comp
 L ugl:CONN_20 P3
