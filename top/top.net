@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/touchpad-electronics/top/top.sch)
-    (date "Mon 18 May 2020 20:38:43 CEST")
+    (date "Tue 19 May 2020 00:34:45 CEST")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,7 +40,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57597A6D))
     (comp (ref R7)
-      (value 47)
+      (value 33)
       (footprint ugl:SM0603)
       (libsource (lib ugl) (part R) (description Resistance))
       (sheetpath (names /) (tstamps /))
@@ -58,7 +58,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5768A632))
     (comp (ref R6)
-      (value 47)
+      (value 33)
       (footprint ugl:SM0603)
       (libsource (lib ugl) (part R) (description Resistance))
       (sheetpath (names /) (tstamps /))
