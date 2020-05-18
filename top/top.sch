@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "UHK 60 Toucpad module"
+Title "UHK 60 Touchpad module"
 Date ""
-Rev "2.0.0"
+Rev "2.1.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
@@ -614,10 +614,10 @@ F 3 "" H 3600 6550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5DDE8CC0
 P 3950 5300
-F 0 "#PWR?" H 3950 5300 30  0001 C CNN
+F 0 "#PWR0101" H 3950 5300 30  0001 C CNN
 F 1 "GND" H 3950 5230 30  0001 C CNN
 F 2 "" H 3950 5300 60  0001 C CNN
 F 3 "" H 3950 5300 60  0001 C CNN
