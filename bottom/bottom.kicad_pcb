@@ -117,7 +117,7 @@
     (add_net /VCC)
   )
 
-  (module ugl:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
+  (module UGL:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
     (at 219.35 149.839996)
     (attr virtual)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
@@ -129,7 +129,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   )
 
-  (module ugl:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
+  (module UGL:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
     (at 199.85 149.839996)
     (attr virtual)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
@@ -141,7 +141,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   )
 
-  (module ugl:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
+  (module UGL:hole_2.8mm locked (layer F.Cu) (tedit 5EC1543E) (tstamp 5295D75B)
     (at 199.85 136.839997)
     (attr virtual)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
@@ -153,7 +153,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   )
 
-  (module ugl:UHK_Logo_12x3.4_mm (layer B.Cu) (tedit 0) (tstamp 5EC14995)
+  (module UGL:UHK_Logo_12x3.4_mm (layer B.Cu) (tedit 0) (tstamp 5EC14995)
     (at 209.6 149.7 180)
     (attr virtual)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
@@ -510,7 +510,7 @@
       (xy 2.528295 1.556775)) (layer B.Mask) (width 0.01))
   )
 
-  (module ugl:HLW4R-2C7LF locked (layer F.Cu) (tedit 5D20C0E7) (tstamp 5EC14D4A)
+  (module UGL:HLW4R-2C7LF locked (layer F.Cu) (tedit 5D20C0E7) (tstamp 5EC14D4A)
     (at 207.85 143.04 270)
     (descr "FFC connector")
     (path /5D20FAD2)
@@ -534,7 +534,7 @@
       (net 4 /GND))
   )
 
-  (module ugl:UHK_Male_Pogo_Pin_v2 locked (layer F.Cu) (tedit 5CCF4290) (tstamp 5D20FC67)
+  (module UGL:UHK_Male_Pogo_Pin_v2 locked (layer F.Cu) (tedit 5CCF4290) (tstamp 5D20FC67)
     (at 225.35 143.139999)
     (path /5D20F51E)
     (fp_text reference P2 (at -2.95 8.360001) (layer F.SilkS)
