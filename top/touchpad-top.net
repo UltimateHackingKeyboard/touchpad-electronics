@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/laci/projects/touchpad-electronics/top/top.sch)
+    (source /home/laci/projects/touchpad-electronics/top/touchpad-top.sch)
     (date "Tue 19 May 2020 00:34:45 CEST")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company "Ultimate Gadget Laboratories Kft.")
         (rev 2.0.0)
         (date)
-        (source top.sch)
+        (source touchpad-top.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
