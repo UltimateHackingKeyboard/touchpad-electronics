@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/laci/projects/touchpad-electronics/bottom/bottom.sch)
+    (source /home/laci/projects/touchpad-electronics/bottom/touchpad-bottom.sch)
     (date "Tue 06 Aug 2019 10:20:35 CEST")
     (tool "Eeschema 5.1.3-ffb9f22~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company "Ultimate Gadget Laboratories Kft.")
         (rev 1.0.0)
         (date)
-        (source bottom.sch)
+        (source touchpad-bottom.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
