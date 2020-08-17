@@ -511,28 +511,6 @@ Wire Wire Line
 	5500 4200 5600 4200
 Wire Wire Line
 	5600 4200 5700 4200
-$Comp
-L UGL:TEST_POINT TP_POUT1
-U 1 1 5D312A8E
-P 5500 2600
-F 0 "TP_POUT1" V 5500 2703 40  0000 L CNN
-F 1 "POUT" H 5500 2540 40  0001 C CNN
-F 2 "UGL:Test_Point" H 5500 2600 60  0001 C CNN
-F 3 "" H 5500 2600 60  0001 C CNN
-	1    5500 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L UGL:TEST_POINT TP_TOUT1
-U 1 1 5D31722F
-P 5500 2700
-F 0 "TP_TOUT1" V 5500 2803 40  0000 L CNN
-F 1 "TOUT" H 5500 2640 40  0001 C CNN
-F 2 "UGL:Test_Point" H 5500 2700 60  0001 C CNN
-F 3 "" H 5500 2700 60  0001 C CNN
-	1    5500 2700
-	0    1    1    0   
-$EndComp
 NoConn ~ 4700 3000
 Text Label 4700 2900 2    40   ~ 0
 RDY
@@ -576,16 +554,8 @@ SCL
 NoConn ~ 2400 4050
 Text Label 2400 3550 0    40   ~ 0
 VCC_BOTTOM
-Text Label 2450 7050 0    40   ~ 0
-NRST
-Text Label 2450 6350 0    40   ~ 0
-RDY
 Wire Wire Line
 	4250 2300 4700 2300
-Text Label 4700 2400 2    40   ~ 0
-PGM
-Text Label 2450 7150 0    40   ~ 0
-PGM
 Text Label 5500 3600 0    40   ~ 0
 TX4
 Text Label 5500 3700 0    40   ~ 0
@@ -596,52 +566,6 @@ Text Label 5500 3900 0    40   ~ 0
 TX7
 Text Label 5500 4000 0    40   ~ 0
 TX8
-$Comp
-L UGL:CONN_20 P3
-U 1 1 5DDE8914
-P 2100 6400
-F 0 "P3" V 2050 6400 50  0000 C CNN
-F 1 "CONN_20" V 2150 6400 50  0000 C CNN
-F 2 "UGL:MC-254-20-00-ST-SMD" H 2100 6700 60  0001 C CNN
-F 3 "" H 2100 6700 60  0000 C CNN
-	1    2100 6400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5DDE8CC0
-P 2450 5450
-F 0 "#PWR0101" H 2450 5450 30  0001 C CNN
-F 1 "GND" H 2450 5380 30  0001 C CNN
-F 2 "" H 2450 5450 60  0001 C CNN
-F 3 "" H 2450 5450 60  0001 C CNN
-	1    2450 5450
-	0    -1   -1   0   
-$EndComp
-Text Label 2450 5650 0    40   ~ 0
-VCC_BOTTOM
-Text Label 2450 6050 0    40   ~ 0
-SDA
-Text Label 2450 6250 0    40   ~ 0
-SCL
-NoConn ~ 2400 4150
-NoConn ~ 2400 4250
-NoConn ~ 2400 4350
-NoConn ~ 2450 5550
-NoConn ~ 2450 5750
-NoConn ~ 2450 5850
-NoConn ~ 2450 5950
-NoConn ~ 2450 6150
-NoConn ~ 2450 6450
-NoConn ~ 2450 6550
-NoConn ~ 2450 6650
-NoConn ~ 2450 6750
-NoConn ~ 2450 6850
-NoConn ~ 2450 6950
-NoConn ~ 2450 7250
-NoConn ~ 2450 7350
-Text Notes 2550 5250 2    60   ~ 12
-Config header
 $Comp
 L UGL:IQS572 U1
 U 1 1 5D285B90
@@ -656,4 +580,14 @@ $EndComp
 Connection ~ 3000 2250
 Text Notes 2750 3200 2    60   ~ 12
 ARM SWD header
+NoConn ~ 5500 2600
+NoConn ~ 5500 2700
+Text Label 2400 4150 0    50   ~ 0
+NRST
+Text Label 2400 4350 0    50   ~ 0
+RDY
+Text Label 2400 4250 0    50   ~ 0
+PGM
+Text Label 4700 2400 2    50   ~ 0
+PGM
 $EndSCHEMATC
