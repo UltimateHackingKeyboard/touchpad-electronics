@@ -495,22 +495,8 @@ $EndComp
 Wire Wire Line
 	6900 2300 6900 2200
 Connection ~ 6900 2300
-$Comp
-L UGL:TEST_POINT TP_GND1
-U 1 1 5D3050F9
-P 5700 4200
-F 0 "TP_GND1" V 5700 4303 40  0000 L CNN
-F 1 "GND" H 5700 4140 40  0001 C CNN
-F 2 "UGL:Test_Point" H 5700 4200 60  0001 C CNN
-F 3 "" H 5700 4200 60  0001 C CNN
-	1    5700 4200
-	0    1    1    0   
-$EndComp
-Connection ~ 5600 4200
 Wire Wire Line
 	5500 4200 5600 4200
-Wire Wire Line
-	5600 4200 5700 4200
 NoConn ~ 4700 3000
 Text Label 4700 2900 2    40   ~ 0
 RDY
@@ -582,12 +568,10 @@ Text Notes 2750 3200 2    60   ~ 12
 ARM SWD header
 NoConn ~ 5500 2600
 NoConn ~ 5500 2700
-Text Label 2400 4150 0    50   ~ 0
-NRST
 Text Label 2400 4350 0    50   ~ 0
 RDY
-Text Label 2400 4250 0    50   ~ 0
-PGM
 Text Label 4700 2400 2    50   ~ 0
 PGM
+NoConn ~ 2400 4150
+NoConn ~ 2400 4250
 $EndSCHEMATC
