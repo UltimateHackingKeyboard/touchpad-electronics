@@ -570,8 +570,7 @@ NoConn ~ 5500 2600
 NoConn ~ 5500 2700
 Text Label 2400 4350 0    50   ~ 0
 RDY
-Text Label 4700 2400 2    50   ~ 0
-PGM
 NoConn ~ 2400 4150
 NoConn ~ 2400 4250
+NoConn ~ 4700 2400
 $EndSCHEMATC
