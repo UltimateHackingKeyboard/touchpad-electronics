@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "UHK 60 Touchpad module"
 Date ""
-Rev "3.0.0"
+Rev "4.0.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
