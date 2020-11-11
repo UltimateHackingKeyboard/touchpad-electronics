@@ -12,7 +12,7 @@
   (page A3)
   (title_block
     (title "UHK Touchpad Module - Top Board")
-    (rev 4.0.0)
+    (rev 5.0.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -3933,7 +3933,7 @@
   (gr_line (start 217.7034 119.1514) (end 194.4878 119.1514) (layer F.Mask) (width 0.6))
   (gr_line (start 219.1766 151.1808) (end 219.1766 120.65) (layer F.Mask) (width 0.6))
   (gr_line (start 193.7512 157.7848) (end 217.8 157.7848) (layer F.Mask) (width 0.6) (tstamp 5D97040A))
-  (gr_text "PCB_ID: touchpad_top_4.0.0" (at 205.2 120.3) (layer B.SilkS) (tstamp 5F4BF6F2)
+  (gr_text "PCB_ID: touchpad_top_5.0.0" (at 205.2 120.3) (layer B.SilkS) (tstamp 5F4BF6F2)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 218.329833 157.888829) (end 219.259895 156.958766) (angle 90) (layer Eco2.User) (width 0.01))
